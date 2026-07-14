@@ -4,7 +4,7 @@
 
 ### Step 1: Install Dependencies
 In the project root, create a Python virtual environment, activate it and install the required packages.
-```
+```python
 python -m venv venv
 source ./venv/bin/activate
 pip install -r ./requirements.txt
@@ -25,13 +25,24 @@ In `main.py` you can adjust the following parameters:
 |`SUSTAINABLE_SYSTEM_PROMPT_SRC_PATH`|Path to the sustainable case system prompt.|
 |`IDLE_PERIOD_BETWEEN_RUNS_SECONDS`|How much time to idle between each model run.|
 
-### Step 4: Execute Script and Begin Experiment
-Execute the main program `main.py`:
+### Step 4: Pull models from Ollama
+Pull the desired models before running the experiment or Ollama will return a not found error:
+```bash
+ollama pull <MODEL_SLUG>
 ```
+
+To delete an installed model, use:
+```bash
+ollama rm <MODEL_SLUG>
+```
+
+### Step 5: Execute Script and Begin Experiment
+Execute the main program `main.py`:
+```bash
 python main.py
 ```
 
-### Step 5: Review Experiment Results
+### Step 6: Review Experiment Results
 The `output/` folder will be automatically created if not exist. Each experiment creates a new subfolder which contains all output responses and metrics.
 
 The `_metrics.txt` file contains measurements of each run. Each line represents one epoch and data is ordered as follows:
