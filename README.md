@@ -65,6 +65,9 @@ For instance, the ID `M1G__UP001__E001` means:
 
 Each output response is saved in as a separate file in the format `M1G__UP001__E001.txt`.
 
+## Notes
+User and system prompts are intentionally loaded from disk to memory just before each run. Outputs are written to disk immediately after each run and then discarded from memory. This prevents loading large chunks of data into memory during run tracking, which may affect model execution and consume extra hardware resources.
+
 ## TODO
 - Organize user prompt dataset
 - Implement preheat logic before experiment
