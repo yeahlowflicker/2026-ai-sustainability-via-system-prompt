@@ -24,6 +24,7 @@ In `main.py` you can adjust the following parameters:
 |`GENERAL_SYSTEM_PROMPT_SRC_PATH`|Path to the general case system prompt.|
 |`SUSTAINABLE_SYSTEM_PROMPT_SRC_PATH`|Path to the sustainable case system prompt.|
 |`IDLE_PERIOD_BETWEEN_RUNS_SECONDS`|How much time to idle between each model run.|
+|`CODECARBON_LOG_LEVEL`|CodeCarbon log level. Default is `error`.|
 
 ### Step 4: Pull models from Ollama
 Pull the desired models before running the experiment or Ollama will return a not found error:
@@ -41,6 +42,7 @@ Execute the main program `main.py`:
 ```bash
 python main.py
 ```
+You may be prompted to enter your system's password, as CodeCarbon needs to access the hardware information of the system.
 
 ### Step 6: Review Experiment Results
 The `output/` folder will be automatically created if not exist. Each experiment creates a new subfolder which contains all output responses and metrics.
