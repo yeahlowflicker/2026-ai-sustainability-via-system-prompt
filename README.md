@@ -4,7 +4,7 @@
 
 ### Step 1: Install Dependencies
 In the project root, create a Python virtual environment, activate it and install the required packages.
-```python
+```bash
 python -m venv venv
 source ./venv/bin/activate
 pip install -r ./requirements.txt
