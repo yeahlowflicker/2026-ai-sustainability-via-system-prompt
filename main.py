@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
 
             # Wait for a period of time to cool down the hardware
-            time.sleep(IDLE_PERIOD_BETWEEN_RUNS_SECONDS = 60)
+            time.sleep(IDLE_PERIOD_BETWEEN_RUNS_SECONDS)
 
 
             # Sustainable system prompt
@@ -77,7 +77,7 @@ if __name__ == '__main__':
             )
 
             # Wait for a period of time to cool down the hardware
-            time.sleep(IDLE_PERIOD_BETWEEN_RUNS_SECONDS = 60)
+            time.sleep(IDLE_PERIOD_BETWEEN_RUNS_SECONDS)
 
         # Increment user prompt to read the next line from src file
         current_user_prompt_index += 1
