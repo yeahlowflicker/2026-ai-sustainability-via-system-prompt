@@ -4,10 +4,10 @@ from model import ollama_send_request
 from helpers import Metrics, append_metrics_to_file, write_response_to_file
 
 
-def run_exp_epoch(experiment_id:int, epoch_id:str, model_slug:str, system_prompt:str, user_prompt:str):
+def run_exp_epoch(experiment_id:int, epoch_id:str, model_slug:str, system_prompt:str, user_prompt:str, cc_loglevel:str='error'):
 
     # Start CodeCarbon tracking
-    cc_tracker = EmissionsTracker(log_level='error')
+    cc_tracker = EmissionsTracker(log_level=cc_loglevel)
     cc_tracker.start()
 
     # Log time of start

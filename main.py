@@ -21,6 +21,8 @@ SUSTAINABLE_SYSTEM_PROMPT_SRC_PATH = './data/sys_prompt_sus.txt'
 
 IDLE_PERIOD_BETWEEN_RUNS_SECONDS = 60
 
+CODECARBON_LOG_LEVEL = 'error'
+
 
 if __name__ == '__main__':
     experiment_id = int(time.time())
@@ -52,6 +54,7 @@ if __name__ == '__main__':
                 model_slug=model_slug,
                 system_prompt=system_prompt,
                 user_prompt=user_prompt,
+                cc_loglevel=CODECARBON_LOG_LEVEL,
             )
 
 
@@ -70,6 +73,7 @@ if __name__ == '__main__':
                 model_slug=model_slug,
                 system_prompt=system_prompt,
                 user_prompt=user_prompt,
+                cc_loglevel=CODECARBON_LOG_LEVEL,
             )
 
             # Wait for a period of time to cool down the hardware
