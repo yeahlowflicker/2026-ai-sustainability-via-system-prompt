@@ -14,7 +14,7 @@ MODEL_LIST = [
 ]
 
 USER_PROMPT_SRC_PATH = './data/user_prompt_ds.txt'
-USER_PROMPT_COUNT = 3
+USER_PROMPT_COUNT = 50
 
 GENERAL_SYSTEM_PROMPT_SRC_PATH = './data/sys_prompt_general.txt'
 SUSTAINABLE_SYSTEM_PROMPT_SRC_PATH = './data/sys_prompt_sus.txt'
@@ -35,49 +35,51 @@ if __name__ == '__main__':
         
         model_index = i+1
 
-        # Load next user prompt from dataset
-        user_prompt = linecache.getline(USER_PROMPT_SRC_PATH, current_user_prompt_index)
-        if len(user_prompt) == 0:
-            break
+        for _ in range(USER_PROMPT_COUNT):
 
-        for j, epoch in enumerate(range(EPOCH_COUNT_PER_MODEL_PROMPT_COMBINATION)):
-            epoch_index = j+1
+            # Load next user prompt from dataset
+            user_prompt = linecache.getline(USER_PROMPT_SRC_PATH, current_user_prompt_index)
+            if len(user_prompt) == 0:
+                break
 
-            # General system prompt
-            epoch_id = f'M{model_index}G__UP{current_user_prompt_index:03d}__E{epoch_index:03d}'
-            print(f'Epoch: {epoch_id}')
+            for j, epoch in enumerate(range(EPOCH_COUNT_PER_MODEL_PROMPT_COMBINATION)):
+                epoch_index = j+1
 
-            system_prompt = read_string_from_file(GENERAL_SYSTEM_PROMPT_SRC_PATH)
-            run_exp_epoch(
-                experiment_id=experiment_id,
-                epoch_id=epoch_id,
-                model_slug=model_slug,
-                system_prompt=system_prompt,
-                user_prompt=user_prompt,
-                cc_loglevel=CODECARBON_LOG_LEVEL,
-            )
+                # General system prompt
+                epoch_id = f'M{model_index}G__UP{current_user_prompt_index:03d}__E{epoch_index:03d}'
+                print(f'Epoch: {epoch_id}')
 
-
-            # Wait for a period of time to cool down the hardware
-            time.sleep(IDLE_PERIOD_BETWEEN_RUNS_SECONDS)
+                system_prompt = read_string_from_file(GENERAL_SYSTEM_PROMPT_SRC_PATH)
+                run_exp_epoch(
+                    experiment_id=experiment_id,
+                    epoch_id=epoch_id,
+                    model_slug=model_slug,
+                    system_prompt=system_prompt,
+                    user_prompt=user_prompt,
+                    cc_loglevel=CODECARBON_LOG_LEVEL,
+                )
 
 
-            # Sustainable system prompt
-            epoch_id = f'M{model_index}S__UP{current_user_prompt_index:03d}__E{epoch_index:03d}'
-            print(f'Epoch: {epoch_id}')
+                # Wait for a period of time to cool down the hardware
+                time.sleep(IDLE_PERIOD_BETWEEN_RUNS_SECONDS)
 
-            system_prompt = read_string_from_file(SUSTAINABLE_SYSTEM_PROMPT_SRC_PATH)
-            run_exp_epoch(
-                experiment_id=experiment_id,
-                epoch_id=epoch_id,
-                model_slug=model_slug,
-                system_prompt=system_prompt,
-                user_prompt=user_prompt,
-                cc_loglevel=CODECARBON_LOG_LEVEL,
-            )
 
-            # Wait for a period of time to cool down the hardware
-            time.sleep(IDLE_PERIOD_BETWEEN_RUNS_SECONDS)
+                # Sustainable system prompt
+                epoch_id = f'M{model_index}S__UP{current_user_prompt_index:03d}__E{epoch_index:03d}'
+                print(f'Epoch: {epoch_id}')
 
-        # Increment user prompt to read the next line from src file
-        current_user_prompt_index += 1
+                system_prompt = read_string_from_file(SUSTAINABLE_SYSTEM_PROMPT_SRC_PATH)
+                run_exp_epoch(
+                    experiment_id=experiment_id,
+                    epoch_id=epoch_id,
+                    model_slug=model_slug,
+                    system_prompt=system_prompt,
+                    user_prompt=user_prompt,
+                    cc_loglevel=CODECARBON_LOG_LEVEL,
+                )
+
+                # Wait for a period of time to cool down the hardware
+                time.sleep(IDLE_PERIOD_BETWEEN_RUNS_SECONDS)
+
+            # Increment user prompt to read the next line from src file
+            current_user_prompt_index += 1
