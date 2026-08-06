@@ -1,5 +1,9 @@
-from ollama import chat
-from ollama import ChatResponse
+from ollama import chat, generate, ChatResponse
+
+
+def ollama_preload_model(model_slug: str):
+    generate(model=model_slug, prompt='Hi')
+
 
 def ollama_send_request(
     model_slug:str,
