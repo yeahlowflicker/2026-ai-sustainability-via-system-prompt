@@ -1,20 +1,25 @@
-from experiment import run_exp_epoch
 import time
-from helpers import read_string_from_file
 import linecache
 from pathlib import Path
 
+from experiment import run_exp_epoch
+from helpers import read_string_from_file, preload_codecarbon
+from model import ollama_preload_model
+from warmup import warmup
 
-EPOCH_COUNT_PER_MODEL_PROMPT_COMBINATION=30
 
 MODEL_LIST = [
     'granite3.2:2b',
-    # 'qwen2:7b',
-    # 'llama3:8b',
+    'qwen2:7b',
+    'llama3:8b',
 ]
 
 USER_PROMPT_SRC_PATH = './data/user_prompt_ds.txt'
 USER_PROMPT_COUNT = 50
+
+EPOCH_COUNT_PER_MODEL_PROMPT_COMBINATION=30
+
+HARDWARE_WARMUP_PERIOD_SECONDS = 300
 
 GENERAL_SYSTEM_PROMPT_SRC_PATH = './data/sys_prompt_general.txt'
 SUSTAINABLE_SYSTEM_PROMPT_SRC_PATH = './data/sys_prompt_sus.txt'
@@ -26,15 +31,30 @@ CODECARBON_LOG_LEVEL = 'error'
 
 if __name__ == '__main__':
     experiment_id = int(time.time())
+    run_counter = 0
+    total_runs = len(MODEL_LIST)*USER_PROMPT_COUNT*EPOCH_COUNT_PER_MODEL_PROMPT_COMBINATION
 
     # The script reads user prompts from the src file line by line
     # This is used to control which line to read, and shall be incremented
     current_user_prompt_index = 1
 
+    # Preload CodeCarbon once before the experiment, as the init process could take a long time.
+    preload_codecarbon()
+
+    # Pre-heat the hardware by running a performance-intensive task
+    warmup()
+
+    # Iterate models (e.g. 3)
     for i, model_slug in enumerate(MODEL_LIST):
         
         model_index = i+1
 
+        # It can take a long time to load up a model on the first try
+        # Here preloading is performed, followed by a cool down period
+        ollama_preload_model(model_slug)
+        time.sleep(IDLE_PERIOD_BETWEEN_RUNS_SECONDS)
+
+        # Iterate user prompts (e.g. 50)
         for _ in range(USER_PROMPT_COUNT):
 
             # Load next user prompt from dataset
@@ -42,8 +62,13 @@ if __name__ == '__main__':
             if len(user_prompt) == 0:
                 break
 
+            # Iterate epochs (e.g. 30)
             for j, epoch in enumerate(range(EPOCH_COUNT_PER_MODEL_PROMPT_COMBINATION)):
                 epoch_index = j+1
+
+                # Just for logging progress
+                run_counter += 1
+                print(f'Run {run_counter} of {total_runs}')
 
                 # General system prompt
                 epoch_id = f'M{model_index}G__UP{current_user_prompt_index:03d}__E{epoch_index:03d}'

@@ -17,12 +17,13 @@ The `data/` folder must be present. It contains the system prompts and user prom
 In `main.py` you can adjust the following parameters:
 |Parameter|Description|
 |---|---|
-|`EPOCH_COUNT_PER_MODEL_PROMPT_COMBINATION`|How many times shall the model repeat for the same combination of model, user prompt, and system prompt.|
 |`MODEL_LIST`|A list of Ollama model slugs to use.|
 |`USER_PROMPT_SRC_PATH`|Path to the user prompt source file.|
 |`USER_PROMPT_COUNT`|How many user prompts to use. Must be smaller or equal to the total no. of lines in the source file.|
+|`EPOCH_COUNT_PER_MODEL_PROMPT_COMBINATION`|How many times shall the model repeat for the same combination of model, user prompt, and system prompt.|
 |`GENERAL_SYSTEM_PROMPT_SRC_PATH`|Path to the general case system prompt.|
 |`SUSTAINABLE_SYSTEM_PROMPT_SRC_PATH`|Path to the sustainable case system prompt.|
+|`HARDWARE_WARMUP_PERIOD_SECONDS`|How long should the hardware warmup task be run before the experiment.|
 |`IDLE_PERIOD_BETWEEN_RUNS_SECONDS`|How much time to idle between each model run.|
 |`CODECARBON_LOG_LEVEL`|CodeCarbon log level. Default is `error`.|
 
