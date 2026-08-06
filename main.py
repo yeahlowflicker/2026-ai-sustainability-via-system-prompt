@@ -42,7 +42,7 @@ if __name__ == '__main__':
     preload_codecarbon()
 
     # Pre-heat the hardware by running a performance-intensive task
-    warmup()
+    warmup(HARDWARE_WARMUP_PERIOD_SECONDS)
 
     # Iterate models (e.g. 3)
     for i, model_slug in enumerate(MODEL_LIST):
