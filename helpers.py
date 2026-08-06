@@ -36,8 +36,9 @@ def read_string_from_file(filename:str)->str:
         content = file.read()
     return content
 
-# Fibonacci sequence function for warm-up before experiments
-def fib(n):
-    if n <= 1:
-        return n
-    return fib(n - 1) + fib(n - 2)
+
+def preload_codecarbon():
+    from codecarbon import EmissionsTracker
+    cc_tracker = EmissionsTracker(log_level='info')
+    cc_tracker.start()
+    cc_tracker.stop()
