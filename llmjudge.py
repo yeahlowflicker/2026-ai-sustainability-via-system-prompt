@@ -63,27 +63,28 @@ if __name__ == '__main__':
         for user_prompt in original_user_prompts:
             current_user_prompt_index += 1
 
-            run_id = f'M{model_index+1}G__UP{current_user_prompt_index:03d}'
+            for condition in ['G', 'S']:
+                run_id = f'M{model_index+1}{condition}__UP{current_user_prompt_index:03d}'
 
-            # Extract the task category
-            task = task_categories[(current_user_prompt_index - 1) // 10]
-            
-            # Extract the context if present
-            match = re.search(r'<context>(.*?)</context>', user_prompt, flags=re.DOTALL)
-            context = match.group(1) if match else None
+                # Extract the task category
+                task = task_categories[(current_user_prompt_index - 1) // 10]
+                
+                # Extract the context if present
+                match = re.search(r'<context>(.*?)</context>', user_prompt, flags=re.DOTALL)
+                context = match.group(1) if match else None
 
-            # Load the SLM response for the current user prompt
-            slm_response_path = f'./outputs/{EXPERIMENT_ID}/M{model_index+1}G__UP{current_user_prompt_index:03d}__E001.txt'
-            slm_response = read_string_from_file(slm_response_path)
+                # Load the SLM response for the current user prompt
+                slm_response_path = f'./outputs/{EXPERIMENT_ID}/M{model_index+1}G__UP{current_user_prompt_index:03d}__E001.txt'
+                slm_response = read_string_from_file(slm_response_path)
 
-            # Construct the LLM evaluation prompt
-            llm_input = f'<task>{task}</task>\n<body>{slm_response}</body>'
-            if context:
-                llm_input += f'\n<context>{context}</context>'
+                # Construct the LLM evaluation prompt
+                llm_input = f'<task>{task}</task>\n<body>{slm_response}</body>'
+                if context:
+                    llm_input += f'\n<context>{context}</context>'
 
-            write_response_to_file(f'./analysis/{EXPERIMENT_ID}/{run_id}.llm_eval.txt', llm_input)
+                write_response_to_file(f'./analysis/{EXPERIMENT_ID}/{run_id}.llm_eval.txt', llm_input)
 
-            for llm in LLM_JUDGE_MODELS:
-                openrouter_evaluate(llm, run_id, task, llm_input)
-                time.sleep(60)
+                # for llm in LLM_JUDGE_MODELS:
+                #     openrouter_evaluate(llm, run_id, task, llm_input)
+                #     time.sleep(60)
 
