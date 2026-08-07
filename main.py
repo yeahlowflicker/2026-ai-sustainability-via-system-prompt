@@ -49,6 +49,9 @@ if __name__ == '__main__':
         
         model_index = i+1
 
+        # Reset to 1 for each model
+        current_user_prompt_index = 1
+
         # It can take a long time to load up a model on the first try
         # Here preloading is performed, followed by a cool down period
         ollama_preload_model(model_slug)
