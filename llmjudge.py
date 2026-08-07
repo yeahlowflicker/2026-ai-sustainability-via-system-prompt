@@ -11,6 +11,10 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 EXPERIMENT_ID = '1786114246'
 SLM_MODEL_COUNT = 3
 
+# Change this to skip a certain number of runs
+# This is useful when the script fails due to random API errors
+INITIAL_SKIP=0
+
 LLM_JUDGE_MODELS = [
     'nvidia/nemotron-3-ultra-550b-a55b:free',
     'poolside/laguna-s-2.1:free',
@@ -53,6 +57,8 @@ def openrouter_evaluate(
 
 if __name__ == '__main__':
     llmjudge_instructions = read_string_from_file('./data/llmjudge_instructions.txt')
+    
+    cumulative_evaluations = 0
 
     with open('./data/user_prompt_ds.txt', "r", encoding="utf-8") as f:
         original_user_prompts = [line.rstrip("\n") for line in f]
@@ -84,7 +90,10 @@ if __name__ == '__main__':
 
                 write_response_to_file(f'./analysis/{EXPERIMENT_ID}/{run_id}.llm_eval.txt', llm_input)
 
-                # for llm in LLM_JUDGE_MODELS:
-                #     openrouter_evaluate(llm, run_id, task, llm_input)
-                #     time.sleep(60)
+                if cumulative_evaluations >= INITIAL_SKIP:
+                    for llm in LLM_JUDGE_MODELS:
+                        openrouter_evaluate(llm, run_id, task, llm_input)
+                        time.sleep(60)
+
+                cumulative_evaluations += 1
 
