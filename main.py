@@ -9,9 +9,9 @@ from warmup import warmup
 
 
 MODEL_LIST = [
-    'granite3.2:2b',
-    'qwen2:7b',
-    'llama3:8b',
+    'granite4.1:8b',
+    'gemma4:12b',
+    'qwen3.5:9b',
 ]
 
 USER_PROMPT_SRC_PATH = './data/user_prompt_ds.txt'
