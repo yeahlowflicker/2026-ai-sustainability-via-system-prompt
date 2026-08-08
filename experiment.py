@@ -28,7 +28,11 @@ def run_exp_epoch(experiment_id:int, epoch_id:str, model_slug:str, system_prompt
 
     metrics = Metrics(
         epoch_id=epoch_id,
-        output_length=len(output_message),
+        input_token_count=response.prompt_eval_count,
+        input_eval_duration=response.prompt_eval_duration,
+        output_char_length=len(output_message),
+        output_token_count=response.eval_count,
+        output_eval_duration=response.eval_duration,
         energy_consumed=cc_tracker.final_emissions_data.energy_consumed,
         carbon_emission=emissions,
         latency=t_end-t_start,
@@ -36,3 +40,4 @@ def run_exp_epoch(experiment_id:int, epoch_id:str, model_slug:str, system_prompt
 
     append_metrics_to_file(f'./outputs/{experiment_id}/_metrics.txt', metrics)
     write_response_to_file(f'./outputs/{experiment_id}/{epoch_id}.txt', output_message)
+    write_response_to_file(f'./outputs/{experiment_id}/ollama/{epoch_id}.dump.txt', str(response))
