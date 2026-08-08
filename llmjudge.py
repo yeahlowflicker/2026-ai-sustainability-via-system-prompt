@@ -15,12 +15,22 @@ SLM_MODEL_COUNT = 3
 # This is useful when the script fails due to random API errors
 INITIAL_SKIP=0
 
+# How long to wait between each LLM api call
+# Useful for dealing with api rate-limiting
+ITERATION_DELAY_SECONDS=0
+
+# The LLM judge models to use for evaluation
+# These should be model slugs available on OpenRouter
 LLM_JUDGE_MODELS = [
-    'nvidia/nemotron-3-ultra-550b-a55b:free',
-    'poolside/laguna-s-2.1:free',
-    'google/gemma-4-31b-it:free',
+    'openai/gpt-oss-120b',
+    'meta-llama/llama-3.3-70b-instruct',
+    'deepseek/deepseek-v4-pro',
 ]
 
+# How many user prompts are there per category
+ITEMS_PER_CATEGORY = 20
+
+# Task categories in order
 task_categories = [
     "closed_qa",
     "open_qa",
@@ -40,6 +50,7 @@ def openrouter_evaluate(
     with OpenRouter(api_key=OPENROUTER_API_KEY) as client:
         response = client.chat.send(
             model=llm_model_slug,
+            provider={"sort": {"by": "price"}},  # choose the cheapest provider
             messages=[
                 {"role": "system", "content": llmjudge_instructions},
                 {"role": "user", "content": llm_input}
@@ -73,7 +84,7 @@ if __name__ == '__main__':
                 run_id = f'M{model_index+1}{condition}__UP{current_user_prompt_index:03d}'
 
                 # Extract the task category
-                task = task_categories[(current_user_prompt_index - 1) // 10]
+                task = task_categories[(current_user_prompt_index - 1) // ITEMS_PER_CATEGORY]
                 
                 # Extract the context if present
                 match = re.search(r'<context>(.*?)</context>', user_prompt, flags=re.DOTALL)
@@ -84,16 +95,14 @@ if __name__ == '__main__':
                 slm_response = read_string_from_file(slm_response_path)
 
                 # Construct the LLM evaluation prompt
-                llm_input = f'<task>{task}</task>\n<body>{slm_response}</body>'
-                if context:
-                    llm_input += f'\n<context>{context}</context>'
+                llm_input = f'<task>{task}</task>\n<input>{user_prompt}</input>\n<body>{slm_response}</body>'
 
                 write_response_to_file(f'./analysis/{EXPERIMENT_ID}/{run_id}.llm_eval.txt', llm_input)
 
                 if cumulative_evaluations >= INITIAL_SKIP:
                     for llm in LLM_JUDGE_MODELS:
                         openrouter_evaluate(llm, run_id, task, llm_input)
-                        time.sleep(60)
+                        time.sleep(ITERATION_DELAY_SECONDS)
 
                 cumulative_evaluations += 1
 
