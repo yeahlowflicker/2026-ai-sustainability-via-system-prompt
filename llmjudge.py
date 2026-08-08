@@ -8,7 +8,7 @@ from helpers import read_string_from_file, write_response_to_file
 load_dotenv() # loads env variables from .env file
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-EXPERIMENT_ID = '1786114246'
+EXPERIMENT_ID = '1786189328'
 SLM_MODEL_COUNT = 3
 
 # Change this to skip a certain number of runs
@@ -85,13 +85,9 @@ if __name__ == '__main__':
 
                 # Extract the task category
                 task = task_categories[(current_user_prompt_index - 1) // ITEMS_PER_CATEGORY]
-                
-                # Extract the context if present
-                match = re.search(r'<context>(.*?)</context>', user_prompt, flags=re.DOTALL)
-                context = match.group(1) if match else None
 
                 # Load the SLM response for the current user prompt
-                slm_response_path = f'./outputs/{EXPERIMENT_ID}/M{model_index+1}G__UP{current_user_prompt_index:03d}__E001.txt'
+                slm_response_path = f'./outputs/{EXPERIMENT_ID}/{run_id}__E001.txt'
                 slm_response = read_string_from_file(slm_response_path)
 
                 # Construct the LLM evaluation prompt
