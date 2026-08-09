@@ -18,7 +18,7 @@ GENERAL_SYSTEM_PROMPT_SRC_PATH = './data/sys_prompt_general.txt'
 SUSTAINABLE_SYSTEM_PROMPT_SRC_PATH = './data/sys_prompt_sus.txt'
 
 HARDWARE_WARMUP_PERIOD_SECONDS = 300
-IDLE_PERIOD_BETWEEN_RUNS_SECONDS = 15
+IDLE_PERIOD_BETWEEN_RUNS_SECONDS = 0
 
 OLLAMA_TOKEN_LIMIT = 16384
 CODECARBON_LOG_LEVEL = 'error'
@@ -106,8 +106,8 @@ def construct_ollama_codecarbon_metrics(run_id: str, task_category:str, latency:
         # @ref: https://docs.codecarbon.io/latest/reference/output/#csv
         # @ref: https://github.com/mlco2/codecarbon/blob/master/codecarbon/output_methods/emissions_data.py#L7
         "cc_duration_s":                codecarbon_result.duration,                # Duration of the compute, in seconds
-        "carbon_emissions_kg":          codecarbon_result.emissions,               # Emissions as CO₂-equivalents (CO₂eq), in kg
-        "emissions_rate_kgps":          codecarbon_result.emissions_rate,          # Emissions divided per duration, in Kg/s
+        "carbon_emissions_grams":       codecarbon_result.emissions * 1000,        # Emissions as CO₂-equivalents (CO₂eq), converted from kg to grams
+        "emissions_rate_grams_per_s":   codecarbon_result.emissions_rate * 1000,   # Emissions divided per duration, converted from kg/s to g/s
         "mean_cpu_power_w":             codecarbon_result.cpu_power,               # Mean CPU power (W)
         "mean_gpu_power_w":             codecarbon_result.gpu_power,               # Mean GPU power (W)
         "mean_ram_power_w":             codecarbon_result.ram_power,               # Mean RAM power (W)
