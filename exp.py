@@ -514,6 +514,7 @@ def experiment_entry():
 
     # Use UNIX timestamp as experiment ID.
     experiment_id = int(time.time())
+    print(f'Experiment ID: {experiment_id}')
 
     # Progress tracking.
     cumulative_run_counter = 0
