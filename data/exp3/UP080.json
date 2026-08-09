@@ -1,0 +1,6 @@
+{
+  "prompt_id": "UP080",
+  "task_category": "information_extraction",
+  "instruction": "Extract the names of the climbers who pioneered The Nose route on El Captain.  List them in order by date first and then alphabetically by last name.  Format them {Year} - {Name}.  Separate the pairs with a semicolon.",
+  "context": "The Nose was climbed in 1958 by Warren Harding, Wayne Merry and George Whitmore in 47 days using \"siege\" tactics: climbing in an expedition style using fixed ropes along the length of the route, linking established camps along the way. The fixed manila ropes allowed the climbers to ascend and descend from the ground throughout the 18-month project, although they presented unique levels of danger as well, sometimes breaking due to the long exposure to cold temperatures. The climbing team relied heavily on aid climbing, using rope, pitons and expansion bolts to make it to the summit. The second ascent of The Nose was in 1960 by Royal Robbins, Joe Fitschen, Chuck Pratt and Tom Frost, who took seven days in the first continuous climb of the route without siege tactics. The first solo climb of The Nose was done by Tom Bauman in 1969. The first ascent of The Nose in one day was accomplished in 1975 by John Long, Jim Bridwell and Billy Westbay."
+}

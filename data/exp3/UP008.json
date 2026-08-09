@@ -1,0 +1,6 @@
+{
+  "prompt_id": "UP008",
+  "task_category": "summarization",
+  "instruction": "According to the text what are the most common symptoms of COVID-19?",
+  "context": "The symptoms of COVID-19 are variable depending on the type of variant contracted, ranging from mild symptoms to a potentially fatal illness. Common symptoms include coughing, fever, loss of smell (anosmia) and taste (ageusia), with less common ones including headaches, nasal congestion and runny nose, muscle pain, sore throat, diarrhea, eye irritation, and toes swelling or turning purple, and in moderate to severe cases, breathing difficulties. People with the COVID-19 infection may have different symptoms, and their symptoms may change over time. Three common clusters of symptoms have been identified: one respiratory symptom cluster with cough, sputum, shortness of breath, and fever; a musculoskeletal symptom cluster with muscle and joint pain, headache, and fatigue; and a cluster of digestive symptoms with abdominal pain, vomiting, and diarrhea. In people without prior ear, nose, or throat disorders, loss of taste combined with loss of smell is associated with COVID-19 and is reported in as many as 88% of symptomatic cases."
+}

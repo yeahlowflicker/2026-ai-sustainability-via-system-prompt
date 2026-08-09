@@ -1,0 +1,6 @@
+{
+  "prompt_id": "UP071",
+  "task_category": "information_extraction",
+  "instruction": "Extract the most recent owner from the following Wikipedia paragraph.",
+  "context": "Owners\nFurther information: Category:Seattle Storm owners\nBarry and Ginger Ackerley, owners of the Seattle SuperSonics (2000–2001)\nHoward Schultz, owner of the Seattle SuperSonics (2001–2006) \nClay Bennett, owner of the Seattle SuperSonics (2007) \nForce 10 Hoops LLC, composed of Dawn Trudeau, Lisa Brummel, Ginny Gilder (2008–present)"
+}

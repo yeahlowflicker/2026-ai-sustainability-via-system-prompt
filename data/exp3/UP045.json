@@ -1,0 +1,6 @@
+{
+  "prompt_id": "UP045",
+  "task_category": "classification",
+  "instruction": "Classify each as being used on water or land: jet ski, boat, car, bike, kayak, skateboard",
+  "context": ""
+}

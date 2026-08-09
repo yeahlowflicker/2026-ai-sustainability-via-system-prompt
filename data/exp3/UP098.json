@@ -1,0 +1,6 @@
+{
+  "prompt_id": "UP098",
+  "task_category": "closed_qa",
+  "instruction": "Given a reference text about the Mid-South Grizzlies vs NFL, what was the result of the lawsuit?",
+  "context": "Mid-South Grizzlies v. NFL, 720 F.2d 772 (3d Cir. 1983), was a lawsuit filed by John F. Bassett, the owner of the World Football League's Memphis Grizzlies against the National Football League claiming that the NFL violated the antitrust laws by refusing to admit his club to their league.\n\nThe court found that the NFL had not acquired or maintained its monopoly power unlawfully and that the refusal to expand to Memphis did not contribute to its maintenance. It further elaborated that such refusal was actually procompetitive because it left the Memphis area open to rival leagues. By the time the lawsuit had settled, Bassett had gone on to found the Tampa Bay Bandits of the United States Football League, while Memphis received the Memphis Showboats of the same league. As such, the case effectively became moot. (Incidentally, the USFL would go on to file a much more famous antitrust suit against the NFL a few years later, which while successfully decided against the NFL, provided only a cursory monetary award to the USFL; ironically, Bassett was an outspoken opponent of that lawsuit.)"
+}

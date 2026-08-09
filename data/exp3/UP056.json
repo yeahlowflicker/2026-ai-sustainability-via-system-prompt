@@ -1,0 +1,6 @@
+{
+  "prompt_id": "UP056",
+  "task_category": "classification",
+  "instruction": "Tell me the genre of each of the following books, choosing between science fiction, fantasy, or neither. \n\nThe Name of the Wind by Patrick Rothfuss, The Player of Games by Iain M. Banks, Crying in H Mart by Michelle Zauner, Crime and Punishment by Fyodr Dostoevsky, and Hyperion by Dan Simmons.",
+  "context": ""
+}

@@ -1,0 +1,6 @@
+{
+  "prompt_id": "UP048",
+  "task_category": "classification",
+  "instruction": "Tell me whether each airline is American or European: British Airways, United Airlines, Southwest Airlines, Jet Blue, Easy Jet, Ryan Air",
+  "context": ""
+}

@@ -1,0 +1,6 @@
+{
+  "prompt_id": "UP060",
+  "task_category": "classification",
+  "instruction": "Which of the following as water bodies? Classify them as 'water' and 'not water'. Oceans, Lakes, Ponds, Trees, Mountains, Sky, Roads, Fire.",
+  "context": ""
+}
