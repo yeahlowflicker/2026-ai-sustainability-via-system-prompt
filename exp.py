@@ -86,20 +86,21 @@ def construct_ollama_codecarbon_metrics(run_id: str, task_category:str, latency:
         # Extract Ollama metrics
         # @ref: https://github.com/ollama/ollama-python/blob/25b93290d8cd07b0d00732641f812ee34fd4c989/ollama/_types.py#L230
         # @ref: https://github.com/ollama/ollama-python/blob/25b93290d8cd07b0d00732641f812ee34fd4c989/ollama/_types.py#L304
-        "model_slug":               ollama_raw_response.model,                         # Model used to generate response
-        "is_done":                  ollama_raw_response.done,                          # True if response is complete, otherwise False. Useful for streaming to detect the final response.
-        "done_reason":              ollama_raw_response.done_reason,                   # Reason for completion. Only present when done is True.
-        "total_duration_s":         ollama_raw_response.total_duration / 1e9,          # Total duration, converted from ns to seconds
-        "load_duration_s":          ollama_raw_response.load_duration / 1e9,           # Load duration, converted from ns to seconds
-        "input_token_count":        ollama_raw_response.prompt_eval_count,             # Number of tokens evaluated in the prompt
-        "input_token_duration_s":   ollama_raw_response.prompt_eval_duration / 1e9,    # Duration of evaluating the prompt, converted from ns to seconds
-        "output_token_count":       ollama_raw_response.eval_count,                    # Number of tokens evaluated in inference
-        "output_token_duration_s":  ollama_raw_response.eval_duration / 1e9,           # Duration of evaluating inference, converted from ns to seconds
+        "model_slug":                   ollama_raw_response.model,                         # Model used to generate response
+        "is_done":                      ollama_raw_response.done,                          # True if response is complete, otherwise False. Useful for streaming to detect the final response.
+        "done_reason":                  ollama_raw_response.done_reason,                   # Reason for completion. Only present when done is True.
+        "total_duration_s":             ollama_raw_response.total_duration / 1e9,          # Total duration, converted from ns to seconds
+        "load_duration_s":              ollama_raw_response.load_duration / 1e9,           # Load duration, converted from ns to seconds
+        "input_token_count":            ollama_raw_response.prompt_eval_count,             # Number of tokens evaluated in the prompt
+        "input_token_duration_s":       ollama_raw_response.prompt_eval_duration / 1e9,    # Duration of evaluating the prompt, converted from ns to seconds
+        "output_token_count":           ollama_raw_response.eval_count,                    # Number of tokens evaluated in inference
+        "output_token_duration_s":      ollama_raw_response.eval_duration / 1e9,           # Duration of evaluating inference, converted from ns to seconds
 
-        "is_thinking":              is_thinking,
-        "output_char_count":        len(ollama_raw_response.message.content),
-        "thinking_char_count":      len(ollama_raw_response.message.thinking) if is_thinking else 0,
-
+        "is_thinking":                  is_thinking,
+        "output_char_count":            len(ollama_raw_response.message.content),
+        "thinking_char_count":          len(ollama_raw_response.message.thinking) if is_thinking else 0,
+        
+        "latency_s":                    latency,    # Manually-calculated latency from start to finish
 
         # Extract CodeCarbon metrics
         # @ref: https://docs.codecarbon.io/latest/reference/output/#csv
