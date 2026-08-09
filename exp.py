@@ -77,6 +77,8 @@ def construct_slm_response_dump(run_id: str, task_category:str, ollama_raw_respo
 
 def construct_ollama_codecarbon_metrics(run_id: str, task_category:str, latency:int, ollama_raw_response:object, codecarbon_result: object):
     
+    is_thinking = getattr(ollama_raw_response.message, "thinking", None) is not None
+
     metrics_data = {
         "run_id":           run_id,
         "task_category":    task_category,
@@ -94,8 +96,9 @@ def construct_ollama_codecarbon_metrics(run_id: str, task_category:str, latency:
         "output_token_count":       ollama_raw_response.eval_count,                    # Number of tokens evaluated in inference
         "output_token_duration_s":  ollama_raw_response.eval_duration / 1e9,           # Duration of evaluating inference, converted from ns to seconds
 
-        "is_thinking":              getattr(ollama_raw_response, "thinking", None) is not None,
+        "is_thinking":              is_thinking,
         "output_char_count":        len(ollama_raw_response.message.content),
+        "thinking_char_count":      len(ollama_raw_response.message.thinking) if is_thinking else 0,
 
 
         # Extract CodeCarbon metrics
