@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP061",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Here are the different types of salts listed in the text:\n\n- cooking salt  \n- table salt  \n- sea salt  \n- rock salt  \n- kosher salt  \n- mineral salt  \n- herbal or vegetable salts  \n- iodized salt  \n- salt substitutes  \n\nAnd here are the different types of sugars listed in the text:\n\n- cane sugar  \n- beet sugar  \n- raw sugar  \n- white refined sugar  \n- brown sugar  \n- caster sugar  \n- sugar lumps  \n- icing sugar (also known as milled sugar)  \n- sugar syrup  \n- invert sugar  \n- sugar substitutes (including smart sugar, a blend of pure sugar and a sugar substitute)",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

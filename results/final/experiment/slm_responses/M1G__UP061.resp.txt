@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP061",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Here is a bulleted list of the salts mentioned in the text:\n\n- Cooking salt  \n- Table salt  \n- Sea salt  \n- Rock salt  \n- Kosher salt  \n- Mineral salt  \n- Herbal or vegetable salts  \n- Iodized salt  \n- Salt substitutes  \n\nAnd here is a bulleted list of the sugars mentioned in the text:\n\n- Cane sugar  \n- Beet sugar  \n- Raw sugar  \n- White refined sugar  \n- Brown sugar  \n- Caster sugar  \n- Sugar lumps  \n- Icing sugar (also known as milled sugar)  \n- Sugar syrup  \n- Invert sugar  \n- Sugar substitutes (including smart sugar, a blend of pure sugar and a sugar substitute)",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

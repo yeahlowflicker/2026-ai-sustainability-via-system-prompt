@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP037",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Braising is a slow-cooking method that involves first searing meat (or vegetables) at high heat to develop flavor, then simmering it in a covered pot with a small amount of liquid (such as broth, wine, or water) over low heat for an extended period. The liquid partially evaporates, concentrating the flavors and tenderizing tougher cuts of meat. Braising is ideal for dishes like stews, pot roasts, and braised vegetables, yielding rich, deeply flavored results.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP002",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The length of a championship rowing race is typically **2 kilometers (approximately 1.2 miles)**, held on a calm-water course with multiple lanes marked by buoys. \n\n**Key details:**\n- **Distance:** 2 km per lane  \n- **Course type:** Calm water, often on lakes or specially designed rowing courses  \n- **Lanes:** Marked with buoys to guide the boats  \n\nThis standard distance ensures consistent conditions for competitive races at elite and championship levels.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

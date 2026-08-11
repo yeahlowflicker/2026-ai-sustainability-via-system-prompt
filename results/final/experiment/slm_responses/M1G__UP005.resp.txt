@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP005",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "**Summary of Nobo**\n\nNobo is a Norwegian manufacturing company that originated as NOrsk BOttefabrikk (\"the Norwegian Bucket Factory\") in Lade, Trondheim in 1918. The name \"Nobo\" is a contraction of its original title. Initially focused on bucket production, the factory expanded to manufacture various sheet iron products over time. Today, Nobo specializes in producing desks, electric wall heaters, and filing cabinets.\n\nIn the 1990s, the original manufacturing facility was decommissioned, and the site was redeveloped into a residential area comprising approximately 220 houses and flats, known as Ingemann Torps Street or Nobø-tomta. This redevelopment project was planned by Heimdal Utbyggingsselskap and designed by Pir II Architects. Despite the shift in its primary operations, Nobo continues to be recognized for its production of electric heating accessories, a legacy rooted in its early manufacturing activities.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP074",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "- Gibbs School in Kensington, London  \n- Fessenden School (sixth and seventh grades) in Massachusetts  \n- Cranwell Preparatory School (eighth grade) in Massachusetts  \n- Milton Academy (four high-school years) in Milton, Massachusetts  \n\n(Note: The paragraph does not specify the schools attended before Gibbs School or between ages eight and sixteen beyond those listed.)",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

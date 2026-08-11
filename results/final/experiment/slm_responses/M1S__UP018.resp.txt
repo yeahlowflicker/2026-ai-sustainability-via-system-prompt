@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP018",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Beavers (genus Castor) are large, semiaquatic rodents native to the Northern Hemisphere, comprising two species: North American beaver (Castor canadensis) and Eurasian beaver (C. fiber). They weigh up to 30 kg, have brown or gray fur, prominent chisel-like incisors, webbed hind feet, hand-like front paws, and flat, scaly tails. Beavers inhabit freshwater environments like rivers, streams, lakes, and ponds, feeding on tree bark, aquatic plants, grasses, and sedges as herbivores.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

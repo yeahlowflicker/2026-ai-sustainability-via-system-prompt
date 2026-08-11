@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP007",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Gladiator (2000), directed by Ridley Scott, follows Roman general Maximus Decimus Meridius, played by Russell Crowe. After Emperor Marcus Aurelius is murdered by his power-hungry son Commodus, Maximus is betrayed, enslaved, and thrust into the gladiatorial arena. Through brutal combat and rising fame as a gladiator, Maximus seeks vengeance for the deaths of his family and to restore rightful rule to Rome. The film also features performances by Joaquin Phoenix, Connie Nielsen, and Oliver Reed in its portrayal of ancient Rome's political intrigue and spectacles of violence.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

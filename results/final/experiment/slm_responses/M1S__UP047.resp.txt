@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP047",
+  "task_category": "classification",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "For optimal performance during a sporting event, focus on consuming easily digestible carbohydrates to fuel your muscles, along with moderate protein and minimal fats or fiber. A suitable pre-game meal might include:\n\n- **Bananas or other fruit**: Provides quick energy from natural sugars.\n- **Whole grain toast or bagel**: Offers complex carbs for sustained energy.\n- **Low-fat yogurt or a small smoothie**: Supplies some protein without heavy digestion.\n- **Sports drink or water**: Hydrates and replaces electrolytes.\n\nEat this meal 1–3 hours before the event, adjusting timing based on your personal digestive comfort. Avoid high-fiber foods, large portions, or anything new that might cause gastrointestinal distress during activity.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

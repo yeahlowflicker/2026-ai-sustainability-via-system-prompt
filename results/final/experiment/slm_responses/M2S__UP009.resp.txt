@@ -1,0 +1,14 @@
+{
+  "run_id": "M2S__UP009",
+  "task_category": "summarization",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Dorrie Nossiter’s work was shown in the \"Art by Four Women\" exhibition at Walker's Gallery.",
+  "thinking": "*   Question: What was the name of Dorrie Nossiter's exhibition?\n    *   Context provided: A short biography of Dorrie Nossiter.\n    *   Constraints: Keep it short and concise (Sustainability). No extra fluff or polite conversational markers.\n\n    *   The text says: \"By 1935 she was living in London where her work was shown in the 'Art by Four Women' exhibition at Walker's Gallery, London.\"\n    *   It also notes: \"Nossiter would go on to exhibit there from 1935 to 1939.\"\n\n    *   The name of the exhibition is \"Art by Four Women\".",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

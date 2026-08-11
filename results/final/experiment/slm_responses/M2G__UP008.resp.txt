@@ -1,0 +1,14 @@
+{
+  "run_id": "M2G__UP008",
+  "task_category": "summarization",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "According to the text provided, the most common symptoms of COVID-19 are coughing, fever, loss of smell (anosmia), and loss of taste (ageusia).",
+  "thinking": "*   User Question: \"According to the text what are the most common symptoms of COVID-19?\"\n    *   Context Provided: A paragraph describing various symptoms, their variations, and specific clusters (respiratory, musculoskeletal, digestive).\n\n    *   \"Common symptoms include coughing, fever, loss of smell (anosotros) and taste (ageusia)...\"\n    *   Less common symptoms listed: headaches, nasal congestion, runny nose, muscle pain, sore throat, diarrhea, eye irritation, toes swelling/turning purple.\n    *   Moderate to severe cases: breathing difficulties.\n    *   Specific statistic for loss of smell + loss of taste (88% of symptomatic cases).\n\n    *   Primary answer: coughing, fever, loss of smell (anosmia), and loss of taste (ageusia).\n    *   Clarification/Context: The text also mentions three common clusters: respiratory (cough, sputum, shortness of breath, fever), musculoskeletal (muscle/joint pain, headache, fatigue), and digestive (abdominal pain, vomiting, diarrhea).\n\n    *   Tone: Warm and helpful.\n    *   Formatting: Keep it simple since the question is straightforward. No need for heavy formatting unless necessary for clarity.\n    *   Constraint Check: Don't give medical advice or provide medical diagnosis. Just answer based on the text provided.\n\n    The text states that the most common symptoms are coughing, fever, loss of smell (anosmia), and loss of taste (ageusia).",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

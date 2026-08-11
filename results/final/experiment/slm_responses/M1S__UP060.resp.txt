@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP060",
+  "task_category": "classification",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "**Classification**\n\n- **Water:** Oceans, Lakes, Ponds  \n- **Not Water:** Trees, Mountains, Sky, Roads, Fire  \n\n**Explanation (concise)**  \n\n- **Oceans, Lakes, Ponds** are large or small bodies of liquid water on Earth's surface.  \n- **Trees, Mountains, Sky, Roads, Fire** do not consist of water; they are landforms, atmospheric phenomena, infrastructure, and a chemical reaction, respectively.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

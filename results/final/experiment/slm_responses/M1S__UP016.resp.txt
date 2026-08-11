@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP016",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Sir Alex Ferguson is Manchester United's most successful manager, having led the team to 38 trophies, including 13 Premier League titles, five FA Cups, two UEFA Champions League titles, and multiple other honors during his tenure from 1986 to 2013.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

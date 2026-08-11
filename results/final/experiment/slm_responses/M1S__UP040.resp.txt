@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP040",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Boca Raton, Florida, is known for hosting the world's longest swimming pool, which stretches an impressive 66 feet in length. This pool, located at The Reserve at Paradies Vivacia resort, offers a unique aquatic experience and is a popular attraction for both residents and visitors alike.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

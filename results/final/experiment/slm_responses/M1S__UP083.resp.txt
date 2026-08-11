@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP083",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "No, someone cannot drive on Black Bear Road all year. The road is open only from late summer (typically the last week of July) to early fall. It is primarily used for downhill travel from Red Mountain Pass and is closed for most of the year due to seasonal conditions. The only exception is during the annual Jeeper's Jamboree, when travel is briefly reversed for one day. \n\nAdditional information: \n- The road's limited open period is due to weather conditions that can make it impassable outside this timeframe.\n- It is a popular route for off-road vehicles but requires planning around its seasonal availability.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

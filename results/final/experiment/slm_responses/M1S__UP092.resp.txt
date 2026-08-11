@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP092",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Jake was released from prison (granted work release) so that he could travel and attempt to persuade his son Jesus Shuttlesworth to choose \"Big State\" as his college basketball program. The governor, an influential alumnus of Big State, facilitated this work release with the condition that Jake successfully influences Jesus's college decision, which would lead to Jake's early release from Attica Correctional Facility.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

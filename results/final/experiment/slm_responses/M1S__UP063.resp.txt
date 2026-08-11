@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP063",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Roman;Gothic;Renaissance;Ottoman (Turkish);Baroque;Classical;Neoclassical;Romantic;Art Nouveau;Contemporary",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP094",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Jiang Zemin was the core leader of the **third generation** of Chinese leadership. The third-generation leadership cohort also includes Mao Zedong, Deng Xiaoping, and Xi Jinping.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

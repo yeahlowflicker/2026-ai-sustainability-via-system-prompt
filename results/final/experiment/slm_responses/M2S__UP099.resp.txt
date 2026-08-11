@@ -1,0 +1,14 @@
+{
+  "run_id": "M2S__UP099",
+  "task_category": "closed_qa",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The main causes were a combination of social, political, and economic factors that the Ancien Régime proved unable to manage.",
+  "thinking": "*   Input: A short paragraph about the French Revolution.\n    *   Question: What were the main causes?\n    *   Constraint 1 (Sustainability): Give short/concise answers, avoid unnecessary emotions/descriptions, provide minimal answer, no redundant text or politeness enhancements.\n\n    *   \"Its causes are generally agreed to be a combination of social, political and economic factors, which the Ancien Régime proved unable to manage.\"\n    *   Contextual clues: \"widespread social distress\" led to the convocation of the Estates General.\n\n    *   The main causes were a combination of social, political, and economic factors that the Ancien Régime was unable to manage.",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

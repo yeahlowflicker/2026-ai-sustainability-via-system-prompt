@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP069",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "At its peak in 2004, Blockbuster had **9,094 stores** worldwide. \n\nAdditional context: This number reflects the company's extensive global presence during that period, serving both rental customers for physical media (DVDs, Blu-rays) and offering various entertainment services such as video game rentals and later transitioning into streaming platforms after facing competition from online services like Netflix. The peak was shortly before Blockbuster's decline due to the rise of digital streaming and DVD-by-mail competitors.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

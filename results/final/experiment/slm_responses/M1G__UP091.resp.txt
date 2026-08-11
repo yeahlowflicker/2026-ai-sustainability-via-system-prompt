@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP091",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Sergio Agüero scored the Premier League winning goal for Manchester City against Queens Park Rangers (QPR) in the 2012 match. This dramatic late goal secured Manchester City's first league title since 1967–68 and is often cited as one of the greatest moments in Premier League history, occurring at approximately 93:20 into the game with commentator Martin Tyler famously exclaiming \"Agueroooooo!\"",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

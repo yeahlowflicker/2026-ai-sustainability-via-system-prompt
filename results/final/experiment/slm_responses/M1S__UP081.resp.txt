@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP081",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The term \"children of Bill 101\" (les enfants de la loi 101) refers to individuals born after 1977 whose parents immigrated to Quebec following the adoption of the Charter of the French Language, commonly known as Bill 101. This law mandates that children under 16 receive primary and secondary education in French unless specific criteria related to parental education or citizenship are met, which may allow for instruction in English.\n\nKey points about this generation:\n- **Immigration Timing:** Parents arrived in Quebec after 1977.\n- **Education Requirement:** Children must attend French-language schools unless eligible for an exemption due to parental educational background or citizenship status.\n- **Certificate of Eligibility:** A permanent certificate can be granted if one parent is a Canadian citizen and meets certain education criteria, allowing English instruction. Temporary certificates may apply to children of temporary residents or diplomats.\n\nThus, the \"children of Bill 101\" are those who grew up in Quebec under these educational provisions shaped by their parents' immigration status post-1977.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

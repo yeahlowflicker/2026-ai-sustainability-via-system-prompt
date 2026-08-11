@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP098",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The result of the Mid-South Grizzlies v. NFL lawsuit was that the court ruled in favor of the NFL, finding that it had not acquired or maintained its monopoly power unlawfully and that refusing to admit the Memphis Grizzlies did not harm competition. The refusal was considered procompetitive as it left the Memphis area open for potential rival leagues. Consequently, the case became moot when John F. Bassett founded the Tampa Bay Bandits of the United States Football League and Memphis later received the Memphis Showboats from the same league.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

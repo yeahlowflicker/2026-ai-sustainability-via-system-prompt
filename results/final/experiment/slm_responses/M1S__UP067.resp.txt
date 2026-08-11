@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP067",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Boo-Boo Bear's age is not explicitly stated in the source material. As an anthropomorphic character from The Yogi Bear Show, his age remains undefined within the context provided.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

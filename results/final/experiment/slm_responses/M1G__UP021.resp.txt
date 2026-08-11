@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP021",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The four major championships of professional men's golf in the PGA (Professional Golfers' Association) Tour are widely recognized as the most prestigious and historically significant tournaments. They are:\n\n1. **The Masters Tournament**  \n   - Held annually at Augusta National Golf Club in Augusta, Georgia, USA.  \n   - First played in 1934; it is known for its iconic green jacket awarded to the champion.\n\n2. **The U.S. Open Championship**  \n   - Organized by the United States Golf Association (USGA).  \n   - Takes place on rotating sites across the United States each year, featuring demanding courses that test all aspects of a golfer's game.\n\n3. **The British Open (The Open Championship)**  \n   - The oldest of the four majors, established in 1860.  \n   - Held at various links courses throughout the United Kingdom, renowned for its unique challenges posed by windy and undulating landscapes.\n\n4. **The PGA Championship**  \n   - Sponsors: Professional Golfers' Association of America (PGA).  \n   - Rotates among different golf clubs across the United States each year, often featuring large, well-maintained facilities with modern amenities.\n\nThese tournaments are distinct from regular PGA Tour events in terms of prize money, historical significance, and level of competition, making them the pinnacle achievements for professional golfers worldwide.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

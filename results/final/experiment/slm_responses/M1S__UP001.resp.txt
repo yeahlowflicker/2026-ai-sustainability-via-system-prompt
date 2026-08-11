@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP001",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Tourists visit the Cascata delle Marmore despite its use for hydroelectric power production by following a scheduled timetable that activates the waterfall at specific times, typically around noon to early afternoon and late afternoon to evening daily, with additional slots on holidays. During these periods, water is diverted from the reservoir in Piediluco Lake through the Galleto power plant, allowing the 165-meter-high man-made falls to flow dramatically. Visitors pay an entrance fee and can hike along a path leading up to the top of the falls, passing an observatory tunnel near the base where they may get wet, and another higher observatory offering panoramic views of the waterfall and Nera valley below. The combination of scheduled full-flow displays and accessible viewing points makes the attraction appealing for both its natural spectacle and engineering feat.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

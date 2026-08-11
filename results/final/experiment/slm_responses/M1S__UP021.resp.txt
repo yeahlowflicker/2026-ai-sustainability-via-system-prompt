@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP021",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The four major championships in professional men's golf administered by the PGA Tour are:\n\n1. The Masters Tournament  \n2. The U.S. Open Championship  \n3. The Open Championship (also known as The British Open or The Open)  \n4. The PGA Championship  \n\nThese tournaments are widely regarded as the most prestigious events in world golf each year.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

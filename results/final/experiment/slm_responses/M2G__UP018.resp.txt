@@ -1,0 +1,14 @@
+{
+  "run_id": "M2G__UP018",
+  "task_category": "summarization",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Beavers are large, semiaquatic rodents found in the Northern Hemisphere, with two distinct species: the North American and the Eurasian beaver. These herbivores can weigh up to 30 kilograms and are characterized by their stout bodies, chisel-like incisors, and flat, scaly tails. They inhabit various freshwater environments, such as lakes and rivers, where they feed on plants and tree bark.",
+  "thinking": "*   Input: A paragraph about Beavers (genus *Castor*) detailing species, size, physical traits, habitat, and diet.\n    *   Constraint: Give a \"short summary\" based on the text.\n\n    *   Species: North American (*C. canadensis*) and Eurasian (*C. fiber*).\n    *   Size: Second-largest rodents (after capybaras), up to 30kg.\n    *   Physical Traits: Stout bodies, large heads, chisel-like incisors, brown/gray fur, hand-like front feet, webbed back feet, flat scaly tails.\n    *   Habitat: Freshwater (rivers, streams, lakes, ponds).\n    *   Diet: Herbivorous (bark, aquatic plants, grasses, sedges).\n\n    Beavers are large semiaquatic rodents of the Northern Hemisphere with two known species: North American and Eurasian. They are second only to capybaras in size and weigh up to 30kg. Physically, they have thick fur, scaly tails, and webbed feet. They live in various freshwater habitats and eat a variety of plants and tree bark.\n\n    *   Short summary? Yes.\n    *   Accurate? Yes.\n    *   Tone? Warm/helpful (implied by system prompt).\n    *   Formatting? Prose is preferred for simple questions unless asked otherwise. No excessive bolding.\n\n    Beavers are large, semiaquatic rodents found in the Northern Hemisphere, with two main species: the North American and the Eurasian beaver. These herbivores weigh up to 30 kilograms and are characterized by their stout bodies, chisel-like teeth, and distinctive scaly tails. They live in various freshwater habitats where they feed on bark, grasses, and aquatic plants.",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

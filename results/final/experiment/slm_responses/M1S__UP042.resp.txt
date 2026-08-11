@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP042",
+  "task_category": "classification",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Here is the classification for each item:\n\n**Donut types:**\n- old-fashioned  \n- maple bar  \n- sprinkles (a topping, often used on donuts)  \n- raised  \n- Starburst (when referring to the \"Starburst Donut\" variety, but generally a fruit candy brand, so listed as fruit candy)  \n- cruller  \n- bear claw  \n- apple fritter  \n\n**Fruit candy brands:**\n- Skittles  \n- Mamba  \n- Airheads  \n\nNote: \"Starburst\" appears in both categories due to the dual nature of its mention (a well-known fruit chews brand and a specific donut variant). For this classification, it is listed under fruit candy brands as that is its primary identity.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

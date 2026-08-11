@@ -1,0 +1,2 @@
+From the passage provided, extract where the Fembe language is spoken.
+<context>Fembe, or Agala, is a Trans–New Guinea language of New Guinea, spoken in the plains east of the Strickland River.</context>

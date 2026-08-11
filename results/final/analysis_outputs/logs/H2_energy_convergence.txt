@@ -1,0 +1,3 @@
+analysis: H2_energy
+singular_fit: FALSE
+optimizer_messages: none

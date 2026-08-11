@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP062",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "- Completed studies at Baghdad University, entered Iraqi Army as tank unit commander.\n- Became head of the Polit bureau of the Kurdistan Democratic Party (KDP) in early 1960s.\n- Led Kurdish uprising against Baghdad government of Abd al-Karim Qasim; commanded battlefronts in Kirkuk, Silemani and organized separatist movements in Mawat, Rezan, Qaradagh.\n- Coordinated offensive liberating Sharbazher district in March 1962.\n- Undertook diplomatic missions representing Kurdish leadership in Europe and Middle East.\n- Dispute with Barzani family over KDP direction; left Iraq for Iran in 1964, purchased weapons without Barzanis' knowledge, expelled from KDP.\n- Returned to Iraqi Kurdistan after 1970 agreement; rejoined KDP despite no office.\n- Founded Kurdish Patriotic Union of Kurdistan (Yekiaiti Nishtimani Kurdistan) in 1975 to give new direction to Kurdish separatists and society.\n- Organized armed campaign for Kurdish independence inside Iraqi Kurdistan from 1976; established PUK bases in Iranian and Iraqi Kurdistan (Nawkhan, Qandil).\n- Sided with Iran during 1980s, led struggle from Iraqi bases until 1987-1988 crackdown.\n- Traveled to U.S. in August 1990 to offer support for Kuwait invasion, but efforts unsuccessful.\n- Helped inspire renewed Kurdish independence effort in 1991; negotiated ceasefire with Iraqi Ba'athist government, worked with U.S., U.K., France on safe haven in Iraqi Kurdistan.\n- Supported peace negotiations between PKK and Turkey; present during PKK ceasefire announcements (17 March 1993, indefinite prolongation 16 April 1993).\n- Pursued negotiated settlement to Iraqi Kurdish Civil War and broader Kurdish rights issues; coordinated closely with Masoud Barzani and U.S.-led Coalition in Iraq invasion.\n- Member of Iraqi Governing Council that negotiated Transitional Administrative Law (TAL), interim constitution governing all Iraqi politics.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

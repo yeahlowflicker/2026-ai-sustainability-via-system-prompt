@@ -1,0 +1,7 @@
+Extract the most recent owner from the following Wikipedia paragraph.
+<context>Owners
+Further information: Category:Seattle Storm owners
+Barry and Ginger Ackerley, owners of the Seattle SuperSonics (2000–2001)
+Howard Schultz, owner of the Seattle SuperSonics (2001–2006) 
+Clay Bennett, owner of the Seattle SuperSonics (2007) 
+Force 10 Hoops LLC, composed of Dawn Trudeau, Lisa Brummel, Ginny Gilder (2008–present)</context>

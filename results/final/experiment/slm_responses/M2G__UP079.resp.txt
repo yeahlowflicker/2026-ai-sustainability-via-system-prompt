@@ -1,0 +1,14 @@
+{
+  "run_id": "M2G__UP079",
+  "task_category": "information_extraction",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Fembe is spoken in the plains east of the Strickland River.",
+  "thinking": "*   Input: A short text segment about \"Fembe\" (Agala) language.\n    *   Task: Extract where the Fembe language is spoken.\n\n    *   Text: \"Fembe, or Agala, is a Trans–New Guinea language of New Guinea, spoken in the plains east of the Strickland River.\"\n    *   Key information for extraction: \"the plains east of the Strickland River\".\n\n    *   The location mentioned is \"the plains east of the Strickland River\".\n    *   Contextual details (New Guinea) can be included if needed for clarity, but the primary instruction is to extract *where* it's spoken based on the passage.",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

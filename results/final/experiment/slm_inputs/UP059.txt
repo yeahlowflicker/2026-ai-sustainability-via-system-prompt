@@ -1,0 +1,1 @@
+Classify which colors are shades or red or purple: Violet, burgundy, lavender, brick, lilac, plum, rust, orchid, maroon, ruby, cardinal, fire-engine

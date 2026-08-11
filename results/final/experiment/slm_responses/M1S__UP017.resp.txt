@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP017",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Estonia is located in Northern Europe, bordering the Baltic Sea. It shares borders with Finland to the north across the Gulf of Finland, Sweden to the west across the sea, Latvia to the south, and Russia to the east via Lake Peipus. The capital city is Tallinn, and Estonia covers an area of approximately 45,339 square kilometers (17,505 square miles) with a population of about 1.3 million people.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

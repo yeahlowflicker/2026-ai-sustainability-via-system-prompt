@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP099",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The main causes of the French Revolution, as outlined in the provided paragraph, can be summarized under three broad categories: social, political, and economic factors that the Ancien Régime (the old regime) was unable to address effectively.\n\n### Social Causes:\n1. **Social Inequality:** The rigid class structure of the Ancien Régime, divided into the First Estate (clergy), Second Estate (nobility), and Third Estate (commoners), created deep social divisions. The Third Estate, which comprised the vast majority of the population, bore the brunt of taxation while having little political power.\n2. **Widespread Distress:** By May 1789, widespread hunger and economic hardship had led to significant social unrest among peasants and urban workers.\n\n### Political Causes:\n1. **Failure of Reforms:** Attempts by King Louis XVI and his predecessors to enact reforms were often blocked by privileged classes (the First and Second Estates), leading to a stalemate in addressing the country's fiscal crises.\n2. **Convening of the Estates General:** The decision to convene the Estates General—a legislative body that hadn't met since 1614—to address financial deficits highlighted the government’s inability to manage its affairs effectively, culminating in the Third Estate declaring itself the National Assembly in June 1789.\n\n### Economic Causes:\n1. **Financial Crisis:** France was deeply indebted due to expensive wars (notably the Seven Years' War) and extravagant spending at court, coupled with inefficient tax collection systems that disproportionately affected the Third Estate.\n2. **Tax Burden on Peasants:** The majority of the tax burden fell on peasants who were already suffering from poor harvests and rising bread prices, exacerbating their economic distress.\n\n### Catalyst Events:\n1. **Storming of the Bastille (14 July 1789):** This pivotal event marked the outbreak of open rebellion against royal authority and symbolized the people’s demand for liberty, equality, and security.\n2. **Abolition of Feudalism:** The National Assembly's radical measures, including the abolition of feudal rights and privileges, reflected a fundamental shift in power dynamics and aimed at dismantling the outdated structures that underpinned the Ancien Régime.\n\nIn summary, the French Revolution was sparked by a confluence of social injustices, political ineptitude, and severe economic pressures, which together created an explosive environment ripe for revolutionary change.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP095",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Pseudoscience refers to beliefs, practices, or methodologies that claim to be scientific but do not adhere to the principles of the scientific method. Key characteristics of pseudoscience include:\n\n1. **Lack of Empirical Support**: Pseudoscientific claims often lack rigorous empirical evidence obtained through systematic observation, experimentation, and peer review.\n\n2. **Non-Falsifiability**: Scientific theories must be falsifiable—meaning they can be tested and potentially proven false. Pseudoscience typically makes assertions that cannot be empirically disproven or are protected from criticism by vague, unfalsifiable claims.\n\n3. **Misuse of Scientific Terminology**: Pseudoscience frequently borrows scientific terms and jargon without understanding or applying them correctly, giving a superficial appearance of legitimacy.\n\n4. **Appeal to Tradition or Authority**: It may rely on the authority of charismatic figures or the longevity of a belief system rather than on current evidence-based research.\n\n5. **Contradiction of Established Scientific Consensus**: Pseudoscience often opposes well-established scientific theories that have been extensively validated through repeated experimentation and observation (e.g., climate change denialism, creationism).\n\n6. **Absence of Peer Review**: Genuine scientific claims are subjected to scrutiny by the broader scientific community through peer-reviewed publications. Pseudoscientific ideas typically bypass this critical evaluation.\n\nExamples of pseudoscience include:\n\n- **Homeopathy**: The practice of diluting substances beyond molecular levels, claiming therapeutic effects that lack empirical support.\n- **Astrology**: The belief that celestial bodies' positions influence human affairs and terrestrial events, contradicted by astronomical and psychological research.\n- **Creationism/Intelligent Design**: Attempts to provide scientific explanations for the origins of life and the universe that conflict with evolutionary biology.\n\nUnderstanding pseudoscience is crucial for critical thinking, informed decision-making, especially in areas like health care, education, and policy formulation. It helps individuals distinguish credible science from misleading or harmful claims, promoting a scientifically literate society.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

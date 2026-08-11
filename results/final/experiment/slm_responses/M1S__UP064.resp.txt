@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP064",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The cities that participated in the first IPL (Indian Premier League) season in 2008 were:\n\n- Bangalore\n- Chennai\n- Delhi\n- Hyderabad\n- Jaipur\n- Kolkata\n- Mohali\n- Mumbai\n\nThese eight teams were selected through an auction held on January 24, 2008.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

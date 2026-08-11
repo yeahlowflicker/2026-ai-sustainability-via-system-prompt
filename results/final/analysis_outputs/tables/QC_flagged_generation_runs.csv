@@ -1,0 +1,8 @@
+"run_id","prompt_id","model_slug","condition","task_category","done_reason","token_count","generation_limit_reached","final_content_empty","generation_failure","reasoning_limit_failure","truncated_response"
+"M3G__UP010","UP010","qwen3.5:9b","General","summarization","length",16384,TRUE,TRUE,TRUE,TRUE,FALSE
+"M3S__UP022","UP022","qwen3.5:9b","Sustainability","open_qa","length",16384,TRUE,FALSE,FALSE,FALSE,TRUE
+"M3G__UP022","UP022","qwen3.5:9b","General","open_qa","length",16384,TRUE,TRUE,TRUE,TRUE,FALSE
+"M3G__UP042","UP042","qwen3.5:9b","General","classification","length",16384,TRUE,TRUE,TRUE,TRUE,FALSE
+"M3G__UP054","UP054","qwen3.5:9b","General","classification","length",16384,TRUE,TRUE,TRUE,TRUE,FALSE
+"M3S__UP080","UP080","qwen3.5:9b","Sustainability","information_extraction","length",16384,TRUE,TRUE,TRUE,TRUE,FALSE
+"M3S__UP097","UP097","qwen3.5:9b","Sustainability","closed_qa","stop",1143,FALSE,TRUE,FALSE,FALSE,FALSE

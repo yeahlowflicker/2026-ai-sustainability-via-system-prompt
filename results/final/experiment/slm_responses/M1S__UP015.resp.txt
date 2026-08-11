@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP015",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The Porsche 993 Targa, introduced in 1996, features the innovative \"greenhouse\" retractable glass roof system, a design that continued through the 996 and 997 generations. This system allows the glass roof to slide underneath the rear window when retracted, providing an unobstructed opening without the bulk of a removable top found in earlier Targa models. The new design maintains the same side profile as other 911 Carrera variants and eliminates the need for storing a separate roof section. The Targa is essentially based on the 993 Carrera cabriolet chassis, with the distinctive glass roof substituting the fabric-roofed cabriolet configuration.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

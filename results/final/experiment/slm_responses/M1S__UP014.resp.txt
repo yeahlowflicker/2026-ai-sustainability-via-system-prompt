@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP014",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "- Washington Irving, author of \"The Legend of Sleepy Hollow\" and \"Rip Van Winkle\"\n- Andrew Carnegie, businessman and philanthropist\n- Henry Villard, railroad baron\n- Oswald Garrison Villard, son of Henry Villard and grandson of William Lloyd Garrison\n- Mark Hellinger, journalist and theatre producer\n- Herman Frasch, engineer known as the \"Sulphur King\"\n- Washington Irving (1766–1821), U.S. Congressman from New York\n- Robert Livingston Beeckman, American politician and Governor of Rhode Island\n- William Rockefeller, head of Standard Oil Company\n- Lewis Edward Lawes, reformist warden of Sing Sing prison\n- James Alexander Hamilton (1788–1878), third son of Alexander Hamilton\n- Angelica Hamilton (1784–1857), daughter of Alexander Hamilton\n\n(Note: The list includes a selection of famous figures interred at Sleepy Hollow Cemetery; the context provided mentions many more notable individuals.)",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

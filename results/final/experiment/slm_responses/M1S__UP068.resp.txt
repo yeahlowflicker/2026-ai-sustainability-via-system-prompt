@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP068",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "- Simon (also called Peter)\n- Andrew\n- James (son of Zebedee, brother of John)\n- John (son of Zebedee, brother of James)\n- Matthew (also called Levi) \n\n(Note: The paragraph primarily discusses the calling of several disciples but does not explicitly list all twelve apostles. Only five names are directly mentioned within the provided text.)",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

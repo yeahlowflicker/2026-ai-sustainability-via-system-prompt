@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP072",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Jensen Huang received the following awards from 1999 to 2021:\n\n- **1999**: Entrepreneur of the Year in High Technology by Ernst & Young; Award Recipient for the Northern California region in 1999 (both citations needed).\n- **2003**: Dr. Morris Chang Exemplary Leadership Award from the Fabless Semiconductor Association; National Finalist for the EY Entrepreneur of the Year Award (both citations needed).\n- **June 13, 2009**: Honorary doctorate from Oregon State University.\n- **November 2020**: Honorary doctorate from National Taiwan University (better source needed).\n- **August 2021**: Robert N. Noyce Award by the Semiconductor Industry Association (SIA) – industry’s highest honor.\n- **September 2021**: Included in Time magazine's annual list of the 100 most influential people in the world (Time 100). \n\nAdditional recognitions:\n- Daniel J. Epstein Engineering Management Award from the University of Southern California.\n- Alumni Fellow by Oregon State University. \n- Listed in the inaugural Edge 50 as one of the top 50 influencers in edge computing (2018).\n- Named best-performing CEO in the world by Harvard Business Review (October 2019).\n- Named \"Supplier CEO of the year\" by Eurostars AutomotiveNewsEurope (November 2020).",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

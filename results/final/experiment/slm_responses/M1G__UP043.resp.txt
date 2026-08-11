@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP043",
+  "task_category": "classification",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "**Tbilat**: The Tbilat is a **string instrument**. It is a type of zither that typically features multiple strings plucked or strummed to produce sound.\n\n**Harp guitar**: The harp guitar is also a **string instrument**. It combines the standard guitar strings with additional resonating strings (often called \"harps\") that are played either by plucking or bowing, adding depth and resonance to the musical output.\n\nBoth instruments rely on string vibrations to generate their tones, distinguishing them from percussion instruments, which produce sound through striking, shaking, or scraping.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

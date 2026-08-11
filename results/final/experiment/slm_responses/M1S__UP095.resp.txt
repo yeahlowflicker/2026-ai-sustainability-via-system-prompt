@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP095",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Pseudoscience refers to beliefs, practices, or theories that are presented as having a scientific basis but lack empirical support, falsifiability, or consistent application of the scientific method. Key characteristics include:\n\n1. **Lack of Empirical Evidence**: Claims are not supported by verifiable, reproducible experiments or observations.\n2. **Non-Falsifiability**: Theories cannot be tested or disproven through observation or experiment.\n3. **Misuse of Scientific Terminology**: Use of scientific language without genuine understanding or application.\n4. **Resistance to Peer Review**: Refusal to submit claims for scrutiny by the scientific community.\n5. **Appeal to Tradition or Authority**: Reliance on historical precedent or charismatic proponents rather than evidence.\n\nExamples include astrology, creationism, homeopathy, and conspiracy theories like ancient astronaut theory and climate change denialism. Pseudoscience can mislead public understanding and undermine informed decision-making in health, policy, and education.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

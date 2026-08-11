@@ -1,0 +1,14 @@
+{
+  "run_id": "M2G__UP021",
+  "task_category": "open_qa",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "In professional golf, there are four tournaments traditionally considered \"majors.\" These events carry the most prestige and history in the sport. They are:\n\nThe Masters (held at Augusta National Golf Club), the PGA Championship, the U.S. Open, and The Open Championship (often referred to as the British Open).",
+  "thinking": "*   User asks: \"Which golf tournaments are considered majors in the PGA?\"\n    *   Subject: Golf (PGA).\n    *   Goal: Identify the four major championships.\n\n    *   The \"Majors\" are: The Masters Tournament, the PGA Championship, the U.S. Open, and the The Open Championship (British Open).\n\n    *   Explain clearly which ones they are.\n    *   Provide a brief description or context for each to be helpful.\n    *   Maintain a warm, friendly tone as per instructions.\n    *   Ensure no over-formatting (prose vs. list). Since there are exactly four, a clear list is appropriate but I should keep the prose natural.\n\n    *   The Masters: Augusta National, April.\n    *   PGA Championship: Various courses, May/August.\n    *   U.S. Open: Various US courses, June/July.\n    *   The Open Championship (British Open): Various UK/Ireland courses, July/August.\n\n    *   Refuse unsafe content? N/A.\n    *   Legal/Financial advice? N/A.\n    *   Tone/Formatting: Warm tone, prose-heavy but list is okay if helpful for clarity. Only one question per response (no questions asked). No bolding unless necessary.\n\n    *   Intro: In professional golf, there are four \"majors.\"\n    *   List: The Masters, the PGA Championship, the U.S. Open, and The Open Championship.\n    *   Brief details for each to provide context.",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

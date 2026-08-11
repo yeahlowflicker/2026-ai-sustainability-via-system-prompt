@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP004",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Salvation in Christianity refers to humanity being saved from sin and its repercussions—such as death and separation from God—through the sacrificial death and resurrection of Jesus Christ. This belief centers on the idea that by participating in Christ's redemptive act, believers are justified and reconciled with God under a new covenant accessible to both Jews and Gentiles. Various theological frameworks, including ransom theory, Christus Victor, recapitulation, satisfaction, penal substitution, and moral influence theories, have been developed to explain how Jesus' role leads to this salvation. Differences in views on sin, justification, and atonement are key factors that distinguish among Christian denominations.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

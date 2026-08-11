@@ -1,0 +1,7 @@
+"condition","model","n","n_correct","accuracy","accuracy_percent"
+"General","granite4.1:8b",40,35,0.875,87.5
+"General","gemma4:12b",40,37,0.925,92.5
+"General","qwen3.5:9b",40,35,0.875,87.5
+"Sustainability","granite4.1:8b",40,35,0.875,87.5
+"Sustainability","gemma4:12b",40,36,0.9,90
+"Sustainability","qwen3.5:9b",40,34,0.85,85

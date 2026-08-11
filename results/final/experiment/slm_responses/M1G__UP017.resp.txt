@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP017",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Estonia is located in Northern Europe, on the eastern shore of the Baltic Sea. It shares borders with Finland to the north across the Gulf of Finland, Sweden to the west across the Baltic Sea, Latvia to the south, and Russia to the east via Lake Peipus. The country also includes the islands of Saaremaa and Hiiumaa, along with over 2,200 smaller islets. Estonia covers an area of approximately 45,339 square kilometers (17,505 square miles) and has a population of just over 1.3 million people. Its capital and largest city is Tallinn, while Tartu is another major urban center. The official language is Estonian, which is part of the Finnic branch of the Uralic language family. Estonia gained independence in 1918 after centuries of foreign rule and reasserted its sovereignty following the Soviet occupation from 1940 to 1991. Today, it is a member of the European Union, Eurozone, OECD, Schengen Area, and NATO, known for its high-income advanced economy and digital-forward society.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

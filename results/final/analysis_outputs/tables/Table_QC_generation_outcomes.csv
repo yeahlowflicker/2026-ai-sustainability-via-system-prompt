@@ -1,0 +1,7 @@
+"condition","model","n_runs","n_generation_limit_reached","pct_generation_limit_reached","n_final_content_empty","pct_final_content_empty","n_generation_failure","pct_generation_failure","n_reasoning_limit_failure","pct_reasoning_limit_failure","n_truncated_response","pct_truncated_response"
+"General","granite4.1:8b",100,0,0,0,0,0,0,0,0,0,0
+"General","gemma4:12b",100,0,0,0,0,0,0,0,0,0,0
+"General","qwen3.5:9b",100,4,4,4,4,4,4,4,4,0,0
+"Sustainability","granite4.1:8b",100,0,0,0,0,0,0,0,0,0,0
+"Sustainability","gemma4:12b",100,0,0,0,0,0,0,0,0,0,0
+"Sustainability","qwen3.5:9b",100,2,2,2,2,1,1,1,1,1,1

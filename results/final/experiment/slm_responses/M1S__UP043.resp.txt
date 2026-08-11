@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP043",
+  "task_category": "classification",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "- **Tbalat**: Percussion instrument  \n- **Harp guitar**: String instrument  \n\nThe Tbalat is a membranophone (percussion) used in Middle Eastern music, while the harp guitar features strings and belongs to the string family.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

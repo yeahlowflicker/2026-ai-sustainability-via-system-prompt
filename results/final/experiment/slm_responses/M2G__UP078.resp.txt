@@ -1,0 +1,14 @@
+{
+  "run_id": "M2G__UP078",
+  "task_category": "information_extraction",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The Adani Group was founded in 1988.",
+  "thinking": "*   Task: Extract the founding year of the Adani group from the provided text.\n    *   Context: A paragraph about the Adani Group (history, market cap, controversies).\n\n    *   \"It was founded by Gautam Adani in 1988 as a commodity trading business...\"\n\n    *   Founding year: 1988.\n\n    *   The user wants only the year or a simple response based on the text.\n    *   Tone/Format requirements: Warm, no over-formatting (bold/bullets) unless necessary. Standard prose is preferred for simple questions.\n\n    *   \"Adani Group was founded in 1988.\"",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

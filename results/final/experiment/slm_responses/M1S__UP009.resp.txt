@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP009",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The name of Dorrie Nossiter's exhibition was \"Art by Four Women.\" This exhibition took place at Walker's Gallery in London from 1935 to 1939.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

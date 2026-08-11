@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP038",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Pajamas (often shortened to \"pjs\" or \"jammies\") are loose-fitting, comfortable sleepwear typically made from soft materials such as cotton, silk, satin, or fleece. They usually consist of two main components:\n\n1. **Bottoms**: These can be styled as shorts, pants, or a skirt-like bottom (often referred to as \"leggings\" or \"tights\"). The bottoms are designed to allow ease of movement while sleeping.\n\n2. **Top**: This is often a loose-fitting shirt or a one-piece robe-like garment that covers the upper body. Tops may have long sleeves, short sleeves, or be sleeveless, depending on personal preference and seasonal comfort.\n\nPajamas come in various styles, patterns, and designs to suit individual tastes, ranging from plain solid colors to themed prints like animals, cartoon characters, or floral motifs. They are intended to provide warmth and comfort during sleep while allowing for freedom of movement.\n\nThe term \"pajamas\" originated from the Hindi word \"pyjama,\" which means \"leg garment.\" Historically, pajamas have evolved from traditional Eastern garments adapted for Western fashion, becoming a staple in many cultures worldwide as a symbol of relaxation and bedtime routine.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

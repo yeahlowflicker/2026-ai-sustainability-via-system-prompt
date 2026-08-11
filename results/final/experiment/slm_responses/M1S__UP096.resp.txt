@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP096",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The Amazon Rainforest is located in South America, spanning territory across nine countries: Brazil, Peru, Colombia, Bolivia, Ecuador, French Guiana (an overseas department of France), Guyana, Suriname, and Venezuela. It also encompasses 3,344 formally acknowledged indigenous territories.\n\nThe total area covered by the Amazon basin is approximately 7,000,000 square kilometers (2,700,000 square miles), with about 5,500,000 square kilometers (2,100,000 square miles) under the rainforest canopy. Brazil holds the majority of the forest at around 60%, followed by Peru (13%), Colombia (10%), and smaller portions in Bolivia, Ecuador, French Guiana, Guyana, Suriname, and Venezuela.\n\nWithin this vast region, over 30 million people from approximately 350 distinct ethnic groups reside, distributed across nine national political systems and the aforementioned indigenous territories. Indigenous peoples constitute about 9% of the total population, with 60 groups remaining largely isolated.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

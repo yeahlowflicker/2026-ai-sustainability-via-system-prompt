@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP085",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Coke used Splenda as a sweetener in Diet Coke in 2005 under pressure from retailer Walmart, which was impressed by the popularity of Splenda as an over-the-counter sweetener. This formulation replaced aspartame with sucralose and acesulfame potassium but received little advertising or promotion due to the company's preference for marketing Coca-Cola Zero instead. By late 2009, most distributors had ceased distributing this Splenda-formulated Diet Coke.\n\n**Why:** The decision was driven by external market pressure (Walmart) rather than internal product development goals.\n\n**When:** The Splenda-sweetened version of Diet Coke was introduced in **2005** and discontinued by **late 2009**.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

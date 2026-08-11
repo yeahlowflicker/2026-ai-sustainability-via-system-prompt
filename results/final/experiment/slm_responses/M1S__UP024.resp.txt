@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP024",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The generally recognized first official wine‑producing vineyard in California is **the Niebaum-Coppola Winery** in Santa Rosa, which was established by Augustus F. Niebaum and later expanded by Ernest A. Coppola. However, the earliest commercial viticulture dates back to 1779 when Spanish missionaries planted vines at Mission San Luis Obispo de Tolosa, but these were not formally designated as a \"vineyard\" in the modern sense until Niebaum‑Coppola’s founding in the mid‑19th century.\n\nSo, while mission vineyards existed earlier for sacramental purposes, the first officially recognized commercial winery is widely credited to Niebaum‑Coppola (established circa 1850). \n\n**Key points:**\n- **Mission San Luis Obispo de Tolosa (1779):** Early planting of vines by missionaries.\n- **Niebaum-Coppola Winery (mid‑19th century):** First formally recognized commercial winery, marking California’s official wine‑producing vineyard era. \n\nIf you need more historical detail or specific dates, let me know!",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

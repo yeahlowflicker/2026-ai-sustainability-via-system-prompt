@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP097",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The tallest mountain in the world is Mount Everest, with an elevation of 8,848.86 meters (29,031.7 feet) above sea level. It straddles the border between Nepal and China (Tibet Autonomous Region). The current officially recognized height was determined by a joint survey conducted by Chinese and Nepali authorities in December 2020.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

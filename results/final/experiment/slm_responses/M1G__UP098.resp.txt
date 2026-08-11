@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP098",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The result of the **Mid-South Grizzlies v. NFL** lawsuit (720 F.2d 772 (3d Cir. 1983)) was that the court ruled in favor of the National Football League (NFL). The key findings were:\n\n1. **No Unlawful Monopoly**: The NFL had not acquired or maintained its monopoly power unlawfully.\n2. **Procompetitive Refusal**: The NFL's decision to refuse admission of the Memphis Grizzlies did not harm competition; instead, it was considered procompetitive because it left the Memphis market open for potential rival leagues.\n\nAs the lawsuit proceeded, John F. Bassett, the owner of the Memphis Grizzlies, subsequently founded the Tampa Bay Bandits in the United States Football League (USFL). Meanwhile, the city of Memphis eventually received the Memphis Showboats in the same league. Consequently, by the time the case was resolved, it became moot.\n\nInterestingly, this case set a precedent that would influence later antitrust litigation involving football leagues, including an infamous lawsuit filed by the USFL against the NFL several years later. Despite Bassett's opposition to that latter suit, the USFL ultimately received only a modest monetary award after winning its antitrust claim against the NFL.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

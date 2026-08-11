@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP037",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Braising is a cooking technique that combines both dry-heat and moist-heat methods to tenderize and flavor tougher cuts of meat or vegetables. The process typically involves three main steps:\n\n1. **Searing (Dry-Heat Step):** The food, often meat, is first browned at high heat in a flavorful liquid such as oil, butter, or a combination of fat and aromatics (like onions, garlic, or herbs). This step develops deep color and rich flavors through the Maillard reaction.\n\n2. **Flavoring Liquid Preparation:** A braising liquid is prepared, which can include stock, wine, beer, water, tomatoes, or other ingredients that contribute flavor and moisture. The liquid is often seasoned with aromatics, spices, herbs, or acidic elements like vinegar or citrus to balance flavors and tenderize the meat.\n\n3. **Slow Cooking (Moist-Heat Step):** The seared food is placed in a heavy pot or Dutch oven, partially submerged in the braising liquid. The pot is then covered, and the contents are cooked at a low temperature over a longer period—often on the stovetop, in an oven, or using a slow cooker. This gentle cooking process breaks down connective tissues, resulting in tender, juicy meat.\n\nBraising is particularly well-suited for tougher cuts of meat (such as beef chuck, pork shoulder, or lamb shanks) that benefit from prolonged, low-temperature cooking to become melt-in-your-mouth tender. Vegetables and legumes can also be braised to develop deep, complex flavors.\n\nThe key advantages of braising include:\n- **Tenderness:** Breaks down collagen and connective tissues, making tough cuts palatable.\n- **Flavor Development:** Infuses the food with the aromatics and liquids used in cooking.\n- **Versatility:** Suitable for a wide range of ingredients and cuisines, from hearty stews to delicate vegetable dishes.\n\nOverall, braising is an efficient and flavorful method that yields satisfying results with relatively minimal supervision once the pot is placed on heat.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

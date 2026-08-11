@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP052",
+  "task_category": "classification",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Nuts:  \n- Walnuts  \n- Pistachios  \n- Hazelnuts  \n- Macadamia nuts  \n- Almonds  \n\nLegumes:  \n- Peanuts (technically a legume, but often grouped with nuts in culinary contexts)  \n- Lentils  \n- Chickpeas  \n\nNote that peanuts are botanically classified as legumes because they develop from pods, whereas the others grow encased in hard shells and are true tree nuts.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

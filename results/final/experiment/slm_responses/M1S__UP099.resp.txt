@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP099",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The main causes of the French Revolution, as outlined in the provided context, were a combination of social, political, and economic factors that the Ancien Régime could not effectively address. Key contributors include:\n\n1. **Social Factors**: Widespread social distress among various classes, particularly the Third Estate (commoners), led to growing discontent and demands for reform.\n\n2. **Political Factors**: The inability of the monarchy and the Estates General to adequately respond to the needs and grievances of the populace resulted in calls for a more representative form of government. The conversion of the Estates General into a National Assembly marked a significant political shift.\n\n3. **Economic Factors**: Financial crises, exacerbated by costly wars, poor taxation policies, and excessive spending by the monarchy, strained the economy and increased public burden through taxes and debt, fueling revolutionary fervor.\n\nThese factors together created an environment ripe for radical change, culminating in events such as the Storming of the Bastille on July 14, 1789, which symbolized the outbreak of the revolution.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

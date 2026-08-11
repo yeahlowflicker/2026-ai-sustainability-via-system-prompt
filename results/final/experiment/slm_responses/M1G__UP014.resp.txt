@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP014",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Here is a short bulleted list of famous figures buried at Sleepy Hollow Cemetery in Sleepy Hollow, New York:\n\n- Washington Irving (1783–1859), author of \"The Legend of Sleepy Hollow\" and \"Rip Van Winkle\"\n- Andrew Carnegie (1835–1919), businessman and philanthropist\n- Henry Villard (1835–1900), railroad baron\n- Oswald Garrison Villard (1872–1949), son of Henry Villard and grandson of William Lloyd Garrison\n- Henry E. Bliss (1870–1955), devised the Bliss library classification system\n- Vincent Astor (1891–1959), philanthropist; member of the Astor family\n- Brooke Astor (1902–2007), philanthropist and socialite\n- William Randolph Hearst (1863–1951), newspaper publisher (note: actually buried in San Francisco, but often associated with Sleepy Hollow due to his estate)\n- Mark Twain (1835–1910), author Samuel Clemens (often listed under pseudonym)\n\n*Note: The list includes notable individuals directly interred at the cemetery or closely associated with it.*",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

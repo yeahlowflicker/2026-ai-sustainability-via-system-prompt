@@ -1,0 +1,14 @@
+{
+  "run_id": "M2G__UP009",
+  "task_category": "summarization",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Dorrie Nossiter's work was shown in an exhibition called \"Art by Four Women\" at Walker's Gallery in London, where she exhibited from 1935 to 1939.",
+  "thinking": "The user is asking for the name of Dorrie Nossiter's exhibition based on the provided text.\n\n    - \"By 1935 she was living in London where her work was shown in the 'Art by Four Women' exhibition at Walker's Gallery, London.\"\n    - \"Nossiter would go on to exhibit there from 1935 to 1939.\"\n\nThe name of the exhibition is \"Art by Four Women\".\n\nPlan:\n- State the name of the exhibition.\n- Mention where it was held and the dates if helpful for context (optional but good for clarity).",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

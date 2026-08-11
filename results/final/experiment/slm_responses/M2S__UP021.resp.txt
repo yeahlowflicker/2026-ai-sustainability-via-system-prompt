@@ -1,0 +1,14 @@
+{
+  "run_id": "M2S__UP021",
+  "task_category": "open_qa",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The four major championships in professional golf are:\n\n*   The Masters Tournament\n*   The PGA Championship\n*   The U.S. Open\n*   The Open Championship (also known as the British Open)",
+  "thinking": "*   Question: \"Which golf tournaments are considered majors in the PGA?\"\n    *   Context: Golf (PGA Tour).\n    *   Constraint Check (Sustainability): Short, concise, minimal answer. No unnecessary emotions/descriptions. No action steps or redundant text.\n\n    *   The four major championships in professional golf are:\n        1.  The Masters Tournament\n        2.  The PGA Championship\n        3.  The U.S. Open\n        4.  The Open Championship (often referred to as the British Open).\n\n    *   Identify the 4 majors.\n    *   Keep it concise.\n\n    *   The four major championships in professional golf are:\n        1. The Masters Tournament\n        2. The PGA Championship\n        3. The U.S. Open\n        4. The Open Championship (British Open).",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

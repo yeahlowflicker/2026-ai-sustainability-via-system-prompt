@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP070",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The states that are part of the Western Ghats are:\n\n1. Maharashtra  \n2. Goa  \n3. Karnataka  \n4. Kerala  \n\nThese states lie along the mountain range stretching from the north to the south of India's western coast.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

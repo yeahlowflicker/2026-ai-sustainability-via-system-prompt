@@ -1,0 +1,7 @@
+From the passage provided, extract the names of the two major Sanskrit epics of ancient India. Separate them with a comma.
+<context>The Mahābhārata (/məˌhɑːˈbɑːrətə, ˌmɑːhə-/ mə-HAH-BAR-ə-tə, MAH-hə-; Sanskrit: महाभारतम्, Mahābhāratam, pronounced [mɐɦaːˈbʱaːrɐt̪ɐm]) is one of the two major Sanskrit epics of ancient India in Hinduism, the other being the Rāmāyaṇa. It narrates the struggle between two groups of cousins in the Kurukshetra War and the fates of the Kaurava and the Pāṇḍava princes and their successors.
+
+It also contains philosophical and devotional material, such as a discussion of the four "goals of life" or puruṣārtha (12.161). Among the principal works and stories in the Mahābhārata are the Bhagavad Gita, the story of Damayanti, the story of Shakuntala, the story of Pururava and Urvashi, the story of Savitri and Satyavan, the story of Kacha and Devayani, the story of Rishyasringa and an abbreviated version of the Rāmāyaṇa, often considered as works in their own right.
+
+
+Krishna and Arjuna at Kurukshetra, 18th–19th-century painting.</context>

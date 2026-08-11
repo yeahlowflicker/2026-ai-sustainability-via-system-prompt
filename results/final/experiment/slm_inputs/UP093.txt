@@ -1,0 +1,2 @@
+Given this paragraph about Pandora, what was the initial group name of Pandora musical group?
+<context>Pandora is a female Mexican singing trio. The trio was formed in 1981 under the name Trebol by sisters Isabel Lascurain and Mayte Lascurain and their cousin Fernanda Meade. The trio was renamed "Pandora" upon signing with EMI Records in 1984.</context>

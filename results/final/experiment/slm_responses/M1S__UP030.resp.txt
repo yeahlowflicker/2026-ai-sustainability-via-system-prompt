@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP030",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Here are some of the top tourist attractions across the United States:\n\n1. **Grand Canyon, Arizona** – A stunning natural wonder known for its vast cavernous landscapes.\n2. **Yellowstone National Park, Wyoming/ Montana/ Idaho** – The world's first national park, famous for geysers like Old Faithful and diverse wildlife.\n3. **New York City, New York** – Iconic landmarks such as the Statue of Liberty, Times Square, Central Park, and the Empire State Building.\n4. **San Francisco, California** – Known for the Golden Gate Bridge, Alcatraz Island, and its vibrant cultural scene.\n5. **Washington D.C., District of Columbia** – Home to the White House, Lincoln Memorial, Smithsonian Museums, and numerous monuments.\n6. **Miami Beach, Florida** – Renowned for its white sandy beaches, Art Deco architecture, and lively nightlife.\n7. **Hawaii (Maui/ Big Island/ Oahu)** – Tropical paradise with beautiful beaches, active volcanoes, and lush landscapes.\n8. **Yellowstone National Park, Wyoming/ Montana/ Idaho** – The world's first national park, famous for geysers like Old Faithful and diverse wildlife.\n9. **New Orleans, Louisiana** – Known for its unique French Quarter, jazz music, Mardi Gras celebrations, and Creole cuisine.\n10. **Yellowstone National Park, Wyoming/ Montana/ Idaho** – The world's first national park, famous for geysers like Old Faithful and diverse wildlife.\n\nThese destinations offer a mix of natural beauty, cultural experiences, and iconic landmarks that attract millions of visitors each year.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

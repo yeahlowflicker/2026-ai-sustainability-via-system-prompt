@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP006",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "To play League of Legends (LoL):\n\n1. **Select a Champion**: Choose from over 140 champions, each with unique abilities.\n2. **Queue for a Match**: Join solo or group queues to find opponents.\n3. **Objective**: Control objectives like turrets, dragon/baron camps, and push towards the enemy Nexus.\n4. **Teamfighting**: Engage in coordinated battles using your champion’s skills and team strategies.\n5. **Level Up & Upgrade**: Gain experience points by killing minions and enemies, leveling up to unlock stronger abilities.\n6. **Purchase Items**: Earn gold to buy items that enhance your champion's stats and capabilities.\n\nWin by destroying the enemy Nexus while protecting your own. Practice and teamwork are key to success.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

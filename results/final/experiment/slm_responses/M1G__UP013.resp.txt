@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP013",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Based on the context provided and historical records, Valery Ivanov did face allegations of espionage while serving as First Secretary of the Soviet Embassy in Australia during the early 1980s. The incident you mentioned—known as the Combe-Ivanov affair—involves claims that he attempted to recruit Australian Labor Party member David Combe for intelligence purposes.\n\nHowever, whether Valery Ivanov was definitively proven to be a spy remains somewhat ambiguous in historical accounts. The Australian government expelled him on 22 April 1983 based on suspicions of espionage, but conclusive evidence establishing his involvement in spying activities has not been widely documented or publicly disclosed since that time.\n\nIn summary:\n- **Allegations**: Yes, he was accused of being a spy.\n- **Expulsion**: He was expelled from Australia due to these accusations.\n- **Confirmation**: There is no clear, publicly available confirmation that definitively proves his espionage activities beyond suspicion. \n\nTherefore, while the allegations were serious and resulted in his expulsion, the historical record does not conclusively confirm Valery Ivanov's status as a spy. The case remains an example of Cold War-era diplomatic tensions and intelligence operations between East and West.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

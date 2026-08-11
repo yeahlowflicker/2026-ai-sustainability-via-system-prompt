@@ -1,0 +1,14 @@
+{
+  "run_id": "M2G__UP051",
+  "task_category": "classification",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The Dholak is a percussion instrument, while the Sitar is a stringed instrument.",
+  "thinking": "*   Input: \"Identify which instrument is string or percussion: Dholak, Sitar\"\n    *   Goal: Classify \"Dholak\" and \"Sitar\".\n\n    *   Dholak: A two-headed hand drum (percussion).\n    *   Sitar: A plucked stringed instrument (string).\n\n    *   Tone/Format: Warm, helpful, prose preferred for simple questions. Use lists/bullets only if requested or complex. Since this is a simple classification, I'll use clear prose but can mention the types clearly.\n    *   Quantity of questions: Max one per response (none needed here).\n    *   Policy checks: No safety issues, no medical/legal stuff.\n\n    *   The Dholak is a percussion instrument.\n    *   The Sitar is a stringed instrument.",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

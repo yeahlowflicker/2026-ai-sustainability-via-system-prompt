@@ -1,0 +1,14 @@
+{
+  "run_id": "M2S__UP012",
+  "task_category": "summarization",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Purdue University has Purdue Pete as their athletic mascot.",
+  "thinking": "*   User Question: \"Which university has Purdue Pete as their mascot?\"\n    *   Context provided: Purdue Pete is the mascot of Purdue University (specifically the athletic mascot), while the official mascot is the Boilermaker Special.\n\n    *   The mascot \"Purdue Pete\" belongs to Purdue University.\n\n    *   The user wants a concise answer based on the context provided.\n    *   I need to stick to the facts and keep it simple (per <sustainability> instructions).",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP011",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The territory of present-day Albania was ruled by the Illyrian Ardiaei tribe during this period:\n\n1. **Agron (ruler)**: Son of Pleuratus II, he expanded the Ardiaean Kingdom to its greatest extent under his leadership.\n2. **Teuta** (post-Agron): Upon Agron's death in 230 BC, Teuta inherited the kingdom and further extended her forces southwards toward the Ionian Sea. Rome declared war on her Illyrian Kingdom due to extensive plundering of Roman ships, leading to defeat in 227 BC.\n3. **Gentius** (post-Teuta): He succeeded Teuta around 181 BC and later clashed with the Romans, initiating the Third Illyrian War in 168 BC. The conflict concluded with Roman conquest of the region by 167 BC.\n\nFollowing these events, the Romans divided the territory into three administrative divisions.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

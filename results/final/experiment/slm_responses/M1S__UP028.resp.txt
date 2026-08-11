@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP028",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The Protestant Reformation is generally credited to Martin Luther, a German monk and theologian who sparked widespread religious change in Europe beginning in 1517. Luther's act of posting his \"Ninety-five Theses\" challenging the Catholic Church's sale of indulgences marked the formal start of the Reformation movement.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "M2G__UP017",
+  "task_category": "summarization",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Estonia is located in Northern Europe on the eastern coast of the Baltic Sea. It shares a border with Russia to the east, Latvia to the south, and sits across from Finland's Gulf of Finland to the north and Sweden to the west. Because of its location, it is often referred to as one of the three \"Baltic states.\"",
+  "thinking": "*   User Question: \"Where is Estonia?\"\n    *   Context Provided: A detailed paragraph about Estonia's location (Northern Europe, Baltic Sea), borders (Gulf of Finland, Sweden, Latvia, Lake Peipus, Russia), land area, population, and history.\n\n    *   Location: Northern Europe/Baltic region.\n    *   Specific neighbors: Gulf of Finland (North), Sea (West, near Sweden), Latvia (South), Lake Peipus & Russia (East).\n    *   Significance: One of the \"Baltic states.\"\n\n    *   Tone: Warm, kind, no assumptions about judgment/ability.\n    *   Formatting: Use minimum formatting; prose for simple questions.\n    *   No more than one question per response.\n    *   Safety guidelines: No issues detected here (geography).\n\n    *   Estonia is located in Northern Europe and is situated on the eastern coast of the Baltic Sea. It shares borders with Russia to the east, Latvia to the south, and faces the Gulf of Finland to the north and Sweden across the sea to the west. It is often grouped with Latvia and Lithuania as one of the three \"Baltic states.\"",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

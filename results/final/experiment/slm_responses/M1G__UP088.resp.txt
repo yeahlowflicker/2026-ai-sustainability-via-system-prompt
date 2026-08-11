@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP088",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The villain of the plot in the article about *Donkey Kong Country 2* is **Kaptain K. Rool**, who serves as King K. Rool's moniker for this game. The story primarily takes place on **Crocodile Isle**, the home island of the Kremlings, with additional action occurring in a secret area known as the **Lost World**, which is located at the heart of Crocodile Isle and powered by a geyser.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

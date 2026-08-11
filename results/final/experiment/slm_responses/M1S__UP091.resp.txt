@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP091",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Sergio Agüero scored the Premier League winning goal for Manchester City against QPR in 2012.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

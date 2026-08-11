@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP069",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "At its peak in 2004, Blockbuster had **9,094 stores** worldwide. \n\nThis figure reflects the company's extensive global presence during that period, highlighting its dominance in the video rental market before digital streaming services began to reshape consumer habits. The scale of its operations was substantial, employing around 84,300 people across both the United States and international markets.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

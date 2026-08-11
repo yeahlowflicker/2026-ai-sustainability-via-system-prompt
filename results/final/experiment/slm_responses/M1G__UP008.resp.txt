@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP008",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Based on the provided context, the most common symptoms of COVID-19 are:\n\n1. **Cough**  \n2. **Fever**  \n3. **Loss of smell (anosmia)**  \n4. **Loss of taste (ageusia)**  \n\nThese four symptoms appear together in a high percentage of symptomatic cases (up to 88% when both loss of smell and taste are present). Additionally, other frequently reported symptoms include:\n\n- Headaches  \n- Nasal congestion and runny nose  \n- Muscle pain  \n- Sore throat  \n- Diarrhea  \n- Eye irritation  \n- Toe swelling or discoloration  \n\nLess commonly reported but still notable symptoms can involve breathing difficulties in moderate to severe cases. The context also mentions three symptom clusters: respiratory, musculoskeletal, and digestive, highlighting the variable nature of COVID-19 presentations.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

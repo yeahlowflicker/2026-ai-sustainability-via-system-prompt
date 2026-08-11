@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP071",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The most recent owner listed in the provided Wikipedia paragraph is **Force 10 Hoops LLC**, which has been the owner since 2008 and includes Dawn Trudeau, Lisa Brummel, and Ginny Gilder.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

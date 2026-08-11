@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP051",
+  "task_category": "classification",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "**Dholak:** Percussion  \n*Sitar:* String  \n\nThe dholak is a handheld drum, making it a percussion instrument that produces sound through struck membranes. The sitar is a plucked string instrument with a long neck and multiple strings, classified as a string instrument.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

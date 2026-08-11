@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP011",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The territory of Albania was ruled successively by:\n\n1. **Ardiaean Kingdom (circa 280–168 BC)**: Initially centered around the Illyrian Ardiaei tribe in Montenegro, it expanded under King Agron to include much of present-day Albania and neighboring tribes.\n\n2. **Teuta** (reigned 231–227 BC): Wife of Agron who briefly continued the kingdom's expansion southward toward the Ionian Sea before being defeated by Rome in the First Illyrian War (229–227 BC).\n\n3. **Gentius** (reigned 181–168 BC): Succeeded Teuta and engaged in conflict with Rome, culminating in the Third Illyrian War (168 BC) that resulted in Roman conquest.\n\nFollowing these periods, the Romans divided the region into three administrative divisions after fully integrating it into their empire by 167 BC.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP085",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Coca-Cola introduced \"Diet Coke sweetened with Splenda\" in 2005 after facing pressure from retailer Walmart, which had high demand for the over-the-counter Splenda sweetener. This new formulation replaced aspartame with sucralose (Splenda) and acesulfame potassium as the primary sweeteners. The decision was largely driven by one specific retailer's preference rather than widespread market strategy, resulting in minimal advertising and promotion. By late 2009, most distributors had ceased distributing this Splenda-formulated Diet Coke, indicating limited adoption beyond the initial introduction.\n\n**Why:**\n- **Retailer Pressure:** Walmart's significant demand for Splenda likely influenced Coca-Cola to experiment with a Splenda-based version of Diet Coke.\n- **Market Trend:** The popularity of sucralose as an alternative sweetener among consumers may have prompted Coca-Cola to explore its use in their diet cola offerings.\n\n**When:**\n- **2005 Launch:** The \"Diet Coke sweetened with Splenda\" was officially released in 2005.\n- **Limited Distribution:** It remained on the market until late 2009, when most distributors stopped distributing it, marking a brief period of availability.\n\nThis move reflects Coca-Cola's responsiveness to retailer-specific demands and consumer trends in sweetener preferences during that timeframe.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

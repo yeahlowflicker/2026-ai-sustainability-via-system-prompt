@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP064",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The cities that participated in the first Indian Premier League (IPL) tournament, which took place in 2008, were:\n\n1. Bangalore (Royal Challengers Bangalore)\n2. Chennai (Deccan Chargers)\n3. Delhi (Delhi Daredevils)\n4. Hyderabad (Chennai Super Kings – originally based in Hyderabad before moving to Chennai)\n5. Jaipur ( Rajasthan Royals)\n6. Kolkata (Kolkata Knight Riders)\n7. Mohali (Punjab Indians, later renamed Punjab Kings)\n8. Mumbai (Mumbai Indians)\n\nThese eight teams were selected through an auction held on January 24, 2008, with each franchise being assigned to a specific city as outlined above.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

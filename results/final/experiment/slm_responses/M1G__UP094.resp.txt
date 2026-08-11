@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP094",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Jiang Zemin was the core leader of the **third generation** of Chinese leadership. He served as the general secretary of the Chinese Communist Party (CCP) from 1989 to 2002, as chairman of the Central Military Commission from 1989 to 2004, and as president of China from 1993 to 2003. Alongside Mao Zedong, Deng Xiaoping, and Xi Jinping, Jiang is recognized as one of the four core leaders of modern China.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

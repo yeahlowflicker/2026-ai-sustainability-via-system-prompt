@@ -1,0 +1,14 @@
+{
+  "run_id": "M2G__UP085",
+  "task_category": "closed_qa",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Coca-Cola introduced a version of Diet Coke sweetened with Splenda in 2005. The company did this primarily to satisfy the demands of its retail partner, Walmart, which was impressed by the popularity of Splenda as an over-the-counter sweetener at that time.",
+  "thinking": "*   Question: \"Why and when did Coke use Splenda as a sweetener in diet Coke?\"\n    *   Source material provided: A short history of Diet Coke, Tab, New Coke, and Coca-Cola Zero.\n\n    *   \"In 2005, under pressure from retailer Walmart (which was impressed with the over-the-counter popularity of Splenda sweetener), the company released a new formulation called 'Diet Coke sweetened with Splenda'.\"\n    *   Note: Sucralose and acesulfame potassium replaced aspartame.\n\n    *   *When:* 2005.\n    *   *Why:* Due to pressure from Walmart, who was impressed by the popularity of Splenda as a sweetener.\n\n    *   Use a warm tone.\n    *   Answer clearly based on the text provided.\n    *   Avoid over-formatting (no unnecessary bolding/bullets unless needed for clarity). Since there are two parts (\"why\" and \"when\"), clear prose is best.",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

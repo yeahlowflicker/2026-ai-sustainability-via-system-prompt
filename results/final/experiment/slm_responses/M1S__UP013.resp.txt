@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP013",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Yes, Valery Ivanov was expelled from Australia in 1983 under suspicion of espionage. He served as the First Secretary of the Soviet Embassy and was accused of attempting to recruit an Australian Labor Party member, leading to his expulsion in what became known as the Combe-Ivanov affair. While he denied spying, the incident raised significant concerns about Soviet intelligence activities abroad.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

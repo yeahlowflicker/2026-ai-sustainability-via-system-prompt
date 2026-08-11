@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP028",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The Protestant Reformation is traditionally traced to 1517, when **Martin Luther**, a German monk and theology professor at the University of Wittenberg, published his \"95 Theses\" (or *Disputation on the Power and Efficacy of Indulgences*). This document challenged the Catholic Church's practice of selling indulgences—payments that supposedly reduced punishment for sins—and called for a return to what Luther saw as biblical principles.\n\nLuther’s act was catalyzed by his growing discontent with various perceived abuses within the medieval Catholic Church, particularly the sale of indulgences and the perceived corruption among clergy. By posting the theses on the door of the Castle Church in Wittenberg, he invited scholarly debate, which rapidly spread through Europe thanks to the newly invented printing press.\n\nWhile Luther is widely credited as the primary catalyst, the Reformation was a complex movement involving numerous reformers across Europe (such as **John Calvin** in Switzerland and **Huldrych Zwingli** in Zurich) who each contributed their interpretations of scripture and church practice. Nonetheless, Martin Luther's 95 Theses are generally considered the spark that ignited the widespread religious upheaval known as the Reformation.\n\nThus, **Martin Luther** is commonly identified as the figure who initiated the Protestant Reformation with his bold public challenge to ecclesiastical authority in 1517.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

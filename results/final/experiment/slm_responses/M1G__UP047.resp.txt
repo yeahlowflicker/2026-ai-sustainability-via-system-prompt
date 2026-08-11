@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP047",
+  "task_category": "classification",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Before participating in a sporting event, it's important to fuel your body with the right nutrients to ensure optimal performance and energy levels. Here are some guidelines for pre-event nutrition:\n\n### General Guidelines:\n1. **Timing:** Eat your pre-game meal 2–3 hours before the start of the event to allow for proper digestion.\n2. **Hydration:** Drink water or an electrolyte-rich beverage in the hours leading up to the game to stay hydrated.\n3. **Balanced Meal:** Focus on a balanced mix of carbohydrates, proteins, and healthy fats.\n\n### Sample Pre-Game Meal:\n- **Carbohydrates:** Provide quick energy. Opt for complex carbs like whole grains (oatmeal, brown rice, quinoa), fruits (bananas, berries), or starchy vegetables (sweet potatoes).\n- **Proteins:** Support muscle repair and recovery. Include lean sources such as chicken breast, fish, tofu, eggs, or Greek yogurt.\n- **Healthy Fats:** Offer sustained energy and help with satiety. Avocados, nuts, seeds, olive oil, or a small amount of nut butter can be beneficial.\n- **Fiber:** Moderate fiber intake to avoid gastrointestinal discomfort. Focus on easily digestible foods.\n\n### Example Meal:\n- **Oatmeal** topped with sliced bananas and a drizzle of honey, plus a handful of almonds.\n- **Whole grain toast** with scrambled eggs and a side of fresh berries.\n- **Quinoa salad** with grilled chicken, cherry tomatoes, cucumber, and a light vinaigrette.\n\n### Snack Ideas (if the meal is closer to game time):\n- A banana or apple with a small handful of nuts.\n- Greek yogurt with granola.\n- A sports bar or energy gel (ensure it's one you've tested during training).\n\n### Avoid:\n- **High-Fat Foods:** Greasy or fried foods can cause digestive issues.\n- **Fiber-Heavy Vegetables:** Broccoli, cabbage, or beans that are hard to digest quickly.\n- **Spicy Foods:** Can lead to discomfort and indigestion.\n- **Large Portions:** Overeating close to the event can cause sluggishness.\n\n### Personalization:\nEveryone’s tolerance varies, so it's crucial to experiment during training sessions to determine what works best for you. Listen to your body and adjust accordingly based on how different foods affect your energy levels and comfort during activity.\n\nBy following these guidelines, you’ll be well-prepared to perform at your best during the sporting event.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

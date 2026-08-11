@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP035",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Jesus Christ is believed by Christians to have lived approximately 33 to 36 years on Earth, from around 4 BC to AD 30 or 33. The exact dates are not precisely known due to differences in the dating systems used at that time and variations in historical records. However, most scholars estimate his lifespan within this range based on available historical and biblical evidence.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP041",
+  "task_category": "classification",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The word that is different from the rest is **Paper**.\n\nExplanation:\n- **Sketch**, **Diagram**, **Chart**, and (in a broader sense) **Poster** are all visual representations or artistic works created on a surface.\n- **Paper** is simply a material used to create these visual representations; it is not itself a type of representation. \n\nTherefore, \"Paper\" stands out as the outlier among the list.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

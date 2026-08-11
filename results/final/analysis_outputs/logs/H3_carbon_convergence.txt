@@ -1,0 +1,3 @@
+analysis: H3_carbon
+singular_fit: FALSE
+optimizer_messages: none

@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP007",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Gladiator (2000), directed by Ridley Scott and starring Russell Crowe as Maximus Decimus Meridius, follows a betrayed Roman general who, after Commodus murders Emperor Marcus Aurelius and seizes power, is enslaved and becomes a gladiator. Through the arena's ranks, Maximus seeks vengeance for his family and his rightful emperor.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

@@ -1,0 +1,2 @@
+Which university has Purdue Pete as their mascot?
+<context>Purdue Pete is a mascot of Purdue University. Despite his on-field presence at Purdue sporting events, Pete is only the athletic mascot of the university, and the official mascot of Purdue University is the Boilermaker Special.</context>

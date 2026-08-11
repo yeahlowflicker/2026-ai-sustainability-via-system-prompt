@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP001",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Tourists visit the Cascata delle Marmore, the world's tallest man-made waterfall in Umbria, Italy, primarily during scheduled times when the water flow is maximized for viewing. The waterfall, fed by the river Velino and passing through Piediluco Lake, is usually diverted to a nearby hydroelectric power plant (the Galleto plant, operational since 1929 with a capacity of about 530 MW), significantly reducing its flow most of the time. \n\nTo accommodate visitors, the falls are activated according to a published timetable—typically between 12:00 and 13:00 and again between 16:00 and 17:00 daily, with extra sessions on holidays. Before each activation, an alarm signals the opening of gates, transforming the stream into a powerful rush that creates a spectacular visual effect. An entrance fee is required to access the falls and surrounding areas.\n\nThe visitor experience includes a walking path leading up to the top of the waterfall, featuring tunnels and observatories offering close-up views and panoramic vistas of the Nera valley below, though visitors should expect to get wet near the lower observatory due to the intense spray. This blend of natural beauty, engineering marvel, and scheduled accessibility makes the Marmore Falls a popular attraction despite its dual purpose for hydroelectric power generation.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

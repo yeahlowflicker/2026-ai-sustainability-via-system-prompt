@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP041",
+  "task_category": "classification",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The word that is different from the rest is **Paper**.\n\nExplanation:\n- **Sketch**, **Diagram**, **Chart**, and (in a broader sense) **Poster** all refer to visual representations or artworks created on a surface. They are forms of graphical communication or artistic expression.\n- **Paper**, while it can be the material on which sketches, diagrams, charts, and posters are drawn or printed, is not itself a type of visual representation. It is a medium rather than a graphic element.\n\nTherefore, \"Paper\" stands out as the distinct term among the list. \n\n**Answer:** Paper",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

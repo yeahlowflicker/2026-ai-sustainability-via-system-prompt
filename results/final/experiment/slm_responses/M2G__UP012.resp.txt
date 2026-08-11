@@ -1,0 +1,14 @@
+{
+  "run_id": "M2G__UP012",
+  "task_category": "summarization",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Purdue Pete is the athletic mascot for Purdue University. While he represents the school at many sporting events, the university's official mascot is actually the Boilermaker Special.",
+  "thinking": "The user is asking which university has \"Purdue Pete\" as their mascot.\nThe provided context states: \"Purdue Pete is a mascot of Purdue University.\"\n\nPlan:\n1. Identify the university associated with Purdue Pete from the context.\n2. State clearly that it is Purdue University.\n3. (Optional but helpful) Mention the nuance about the official mascot vs. athletic mascot as per the context.",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

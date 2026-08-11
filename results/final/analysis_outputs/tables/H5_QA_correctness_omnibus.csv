@@ -1,0 +1,4 @@
+"model term","df1","df2","F.ratio","Chisq","p.value"
+"condition",1,Inf,0.551,0.551,0.457895380937576
+"model",2,Inf,1.359,2.718,0.256789927675701
+"condition:model",2,Inf,0.159,0.318,0.852945705960134

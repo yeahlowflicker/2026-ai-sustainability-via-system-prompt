@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP005",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Nobo is a Norwegian manufacturing company founded in 1918 as NOrsk BOttefabrikk in Lade, Trondheim. Initially producing buckets, it expanded to various sheet iron products before specializing in desks, electric wall heaters, and filing cabinets, with production now focused on electric heating accessories at its new factory in Stjordal. The original factory was closed in the 1990s, and the site was redeveloped into a housing estate named Nobø-tomta.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

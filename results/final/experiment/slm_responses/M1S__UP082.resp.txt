@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP082",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Sir Sean Connery was a Scottish actor, best known for originating the role of James Bond in seven films between 1962 and 1983. He was born Thomas Connery on August 25, 1930, and passed away on October 31, 2020. Beyond his iconic portrayal of Bond, Connery appeared in numerous other films throughout his prolific career.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

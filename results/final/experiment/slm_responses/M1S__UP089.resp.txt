@@ -1,0 +1,14 @@
+{
+  "run_id": "M1S__UP089",
+  "task_category": "closed_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "A well-known nickname for Jiang Zemin on Chinese internet forums is **\"Moha\"** (膜蛤), which translates roughly to \"toad worship.\" This term originated as an internet meme that humorously references his appearance and leadership style, often portraying him in a somewhat affectionate or satirical manner among netizens. Another informal title used for Jiang Zemin is **\"Elder\"** or **\"Senior\"** (长者; 長者), stemming from his self-identification as such during a notable exchange with Hong Kong journalist Sharon Cheung, which further popularized the nickname through viral video clips around 2014.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

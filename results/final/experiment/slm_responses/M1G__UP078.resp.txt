@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP078",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The Adani group was founded in **1988**.\n\n(Source: \"It was founded by Gautam Adani in 1988 as a commodity trading business...\")",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

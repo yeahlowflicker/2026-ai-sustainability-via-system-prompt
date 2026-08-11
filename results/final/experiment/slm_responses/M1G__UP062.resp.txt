@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP062",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "**Key Events in Jalal Talabani's Career:**\n\n- Entered the Iraqi Army, served as a tank unit commander.\n- Became head of the Polit bureau of the Kurdistan Democratic Party (KDP) in the early 1960s.\n- Led Kurdish uprising against Baghdad government under Abd al-Karim Qasim; commanded battlefronts in Kirkuk, Silemani, and organized movements in Mawat, Rezan, Qaradagh.\n- Coordinated offensive liberating Sharbazher district in March 1962.\n- Undertook diplomatic missions representing Kurdish leadership in Europe and the Middle East.\n- Dispute with Barzani family over KDP direction; left Iraq for Iran (1964), purchased weapons independently, expelled from KDP.\n- Returned to Iraqi Kurdistan after 1970 agreement; rejoined KDP without official office.\n- Founded Kurdish Patriotic Union of Kurdistan (Yekiaiti Nishtimani Kurdistan) in 1975 to give new direction to Kurdish separatists and society.\n- Organized armed campaign for Kurdish independence inside Iraqi Kurdistan from 1976, established PUK bases in Iranian and Iraqi Kurdistan (Nawkhan and Qandil).\n- Sided with Iran during the 1980s, led struggle from Iraqi Kurdistan bases until 1987–1988 crackdown.\n- Traveled to the United States in August 1990 to offer support for Kurdish independence post-Kuwait invasion; attempts unsuccessful.\n- Helped inspire renewed Kurdish independence effort in 1991; negotiated ceasefire with Iraqi Ba'athist government, saving many Kurds.\n- Worked with U.S., U.K., France, and others to establish safe haven in Iraqi Kurdistan; supported peace negotiations between PKK and Turkey (1993).\n- Played key role as partner of U.S.-led Coalition in the 2003 invasion of Iraq.\n- Member of the Iraqi Governing Council that negotiated the Transitional Administrative Law (TAL), Iraq's interim constitution.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

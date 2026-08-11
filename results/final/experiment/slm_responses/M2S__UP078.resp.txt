@@ -1,0 +1,14 @@
+{
+  "run_id": "M2S__UP078",
+  "task_category": "information_extraction",
+  "model_slug": "gemma4:12b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "1988",
+  "thinking": "*   User wants to extract a specific fact (founding year) from a provided text about the Adani Group.\n    *   Input context: \"Adani Group is an Indian multinational conglomerate... It was founded by Gautam Adani in 1988 as a commodity trading business...\"\n    *   Output requirements: Just the year.\n\n    *   The text says: \"It was founded by Gautam Adani in 1988\".\n    *   Target information: 1988.\n\n    *   Sustainability instruction: \"Give short and concise answers.\" \"Provide the minimal answer.\" \"Do not produce redundant text or politeness and conversational enhancements.\"",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

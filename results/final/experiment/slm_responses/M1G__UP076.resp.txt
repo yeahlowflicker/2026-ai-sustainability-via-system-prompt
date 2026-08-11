@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP076",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Venezuela is a country located on the northern coast of South America, with additional territories in the Caribbean Sea. Officially known as the Bolivarian Republic of Venezuela, it encompasses a large continental landmass along with numerous islands and islets. The nation covers an area of approximately 916,445 square kilometers (353,841 square miles) and had an estimated population of about 29 million people as of 2022. Its capital city and most populous urban area is Caracas.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

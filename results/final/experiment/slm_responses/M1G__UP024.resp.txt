@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP024",
+  "task_category": "open_qa",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "California's first official wine‑producing vineyard is generally credited to **Mission San Luis Obispo de Tolosa**, established in 1772. The Franciscan missionaries planted the first grapevines at this mission, and they began producing wine for sacramental purposes shortly thereafter. This early viticulture laid the groundwork for California’s later development into one of the world's major wine regions.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

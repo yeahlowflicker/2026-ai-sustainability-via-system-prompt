@@ -1,0 +1,22 @@
+alpha: 0.05
+tests: two-sided
+expected_prompts: 100
+expected_completed_runs: 600
+generation_cap_num_predict: 16384
+model_slugs: granite4.1:8b, gemma4:12b, qwen3.5:9b
+model_formula: outcome ~ condition * model + (1 | prompt_id)
+LMM_df_method_for_emmeans: satterthwaite
+followup_adjustment: Holm across the three model-specific Sustainability-vs-General contrasts only after a significant condition:model interaction
+cross_hypothesis_adjustment: none across prespecified H1-H5 outcome models
+H1_definition: total generated output tokens reported by Ollama eval_count; may include thinking/reasoning tokens
+generation_failure_handling: completed generation-limit outcomes remain in H1-H4;
+empty_final_response_QC: final_content_empty is summarized regardless of done_reason
+H5_empty_response_rule: empty final responses are deterministic task failures: QA=incorrect (0); scored tasks=minimum score (1); judge rows for empty responses are ignored
+H5_judge_completeness_rule: every non-empty response must have exactly one valid outcome from each of the three prespecified judges
+judge_models: openai/gpt-oss-120b, meta-llama/llama-3.3-70b-instruct, deepseek/deepseek-v4-pro
+judges_supplied: TRUE
+H5_complete_and_run: TRUE
+R_version: R version 4.4.3 (2025-02-28 ucrt)
+lme4_version: 2.0.6
+lmerTest_version: 3.2.1
+emmeans_version: 1.11.2.8

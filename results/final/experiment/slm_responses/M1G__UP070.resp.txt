@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP070",
+  "task_category": "information_extraction",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "The states that are part of the Western Ghats mountain range are:\n\n1. **Maharashtra**  \n2. **Goa**  \n3. **Karnataka**  \n4. **Kerala**\n\nThese states lie along the Western Ghats, which runs from the north in Gujarat down to Tamil Nadu, intersecting primarily through Maharashtra, Goa, Karnataka, and Kerala. The range is known for its high rainfall and dense forests, contributing significantly to regional precipitation patterns.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}

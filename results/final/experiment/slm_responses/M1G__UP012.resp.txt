@@ -1,0 +1,14 @@
+{
+  "run_id": "M1G__UP012",
+  "task_category": "summarization",
+  "model_slug": "granite4.1:8b",
+  "is_done": true,
+  "done_reason": "stop",
+  "content": "Purdue Pete is the mascot of **Purdue University**. The context you provided correctly identifies that Purdue Pete serves as the athletic mascot at Purdue sporting events, while the official mascot designation for the university is the Boilermaker Special. \n\nTo summarize:\n- **University:** Purdue University\n- **Mascot (athletic):** Purdue Pete\n- **Official Mascot:** Boilermaker Special\n\nPurdue University, located in West Lafayette, Indiana, has a rich tradition of spirited mascot presence, with Pete being the well-known figure that appears at various events to energize fans and participants alike.",
+  "thinking": "",
+  "generation_limit_reached": false,
+  "final_content_empty": false,
+  "generation_failure": false,
+  "reasoning_limit_failure": false,
+  "truncated_response": false
+}
